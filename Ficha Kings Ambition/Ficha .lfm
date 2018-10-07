@@ -462,7 +462,7 @@
 
 			<label text="História" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="30"/>
 
-			<textEditor left="10" top="50" width="550" height="200" fontColor="black"  />
+			<textEditor field="text7" left="10" top="50" width="550" height="200" fontColor="black"  />
 
 		</layout>
 
@@ -470,7 +470,7 @@
 
 			<label text="Anotações" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="30"/>
 
-			<textEditor left="10" top="50" width="550" height="400"  fontColor="black"/>
+			<textEditor field="text7" left="10" top="50" width="550" height="400"  fontColor="black"/>
 
 		</layout>
 	</scrollBox>

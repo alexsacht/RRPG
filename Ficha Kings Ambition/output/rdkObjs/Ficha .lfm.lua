@@ -1577,6 +1577,7 @@ function newfrmkingsambition()
 
     obj.textEditor8 = gui.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor8:setParent(obj.layout13);
+    obj.textEditor8:setField("text7");
     obj.textEditor8:setLeft(10);
     obj.textEditor8:setTop(50);
     obj.textEditor8:setWidth(550);
@@ -1604,6 +1605,7 @@ function newfrmkingsambition()
 
     obj.textEditor9 = gui.fromHandle(_obj_newObject("textEditor"));
     obj.textEditor9:setParent(obj.layout14);
+    obj.textEditor9:setField("text7");
     obj.textEditor9:setLeft(10);
     obj.textEditor9:setTop(50);
     obj.textEditor9:setWidth(550);
