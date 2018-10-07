@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form formType="sheetTemplate" dataType="br.rrpg.kingsambition" 
+	title="Modelo Ficha King's Ambition" name="frmkingsambition"
+	align="client" theme="dark">
+
+
+	<tabControl width="600" height="750" align="client">
+		<tab title="Atributos">
+
+
+			<scrollBox align="client">
+
+				<layout width="600" height="150" align="top"  >
+
+
+					<label text="Nome:" horzTextAlign="center" width="50" top="50" fontColor="black"/>
+
+					<edit field="nome" fontColor="white" width="100" height="30" top="45" left="50" />
+
+					<label text="Classe:" horzTextAlign="center" width="50" top="50" fontColor="black" left="200"/>
+
+					<edit field="classe" fontColor="white" width="100" height="30" top="45" left="250" />
+
+					<label text="EXP:" horzTextAlign="center" width="50" top="50" fontColor="black" left="400"/>
+
+					<edit field="exp" fontColor="white" width="30" height="30" top="45" left="450" />
+
+					<label text="/" horzTextAlign="center" width="10" top="50" fontColor="black" left="480" fontSize="25"/>
+
+					<edit field="exp_total" fontColor="white" width="30" height="30" top="45" left="495" />
+
+
+					<label text="Gold:" horzTextAlign="center" width="50" top="85" fontColor="black"/>
+
+					<edit field="gold" fontColor="white" width="50" height="30" top="80" left="50" />
+
+					<label text="Tipo:" horzTextAlign="center" width="50" top="85" fontColor="black" left="200"/>
+
+					<edit field="tipo" fontColor="white" width="100" height="30" top="80" left="250" />
+
+					<label text="LVL:" horzTextAlign="center" width="50" top="85" fontColor="black" left="400"/>
+
+					<edit field="lvl" fontColor="white" width="30" height="30" top="80" left="450" />
+
+
+					<label text="Reino:" horzTextAlign="center" width="50" top="120" fontColor="black"/>
+
+					<edit field="reino" fontColor="white" width="100" height="30" top="115" left="50" />
+
+					<label text="Rei:" horzTextAlign="center" width="50" top="120" fontColor="black" left="200"/>
+
+					<edit field="rei" fontColor="white" width="100" height="30" top="115" left="250" />
+
+					<label text="Herói:" horzTextAlign="center" width="50" top="120" fontColor="black" left="400"/>
+
+					<edit field="heroi" fontColor="white" width="100" height="30" top="115" left="450" />
+
+				</layout>
+
+
+
+
+				<layout width="600" height="250" align="top"  >
+
+
+					<label text="Status Pessoal" horzTextAlign="center" width="600" top="15" fontColor="black" fontSize="25" height="20"/>
+
+					<label text="FORÇA:" horzTextAlign="trailing" width="50" top="50" fontColor="black" fontStyle="bold"/>
+
+					<edit field="forca" horzTextAlign="center" width="30" top="45" fontColor="black" left="70" />
+
+					<label text="DESTREZA:" horzTextAlign="trailing" width="100" top="50" fontColor="black" fontStyle="bold" left="120"/>
+
+					<edit field="destreza" horzTextAlign="center" width="30" top="45" fontColor="black" left="225"/>
+
+					<label text="PERCEPÇÃO:" horzTextAlign="trailing" width="100" top="50" fontColor="black" fontStyle="bold" left="270"/>
+
+					<edit field="percepcao" horzTextAlign="center" width="30" top="45" fontColor="black" left="380"/>
+
+					<label text="INTELIGÊNCIA:" horzTextAlign="trailing" width="100" top="50" fontColor="black" fontStyle="bold" left="410"/>
+
+					<edit field="inteligencia" horzTextAlign="center" width="30" top="45" fontColor="black" left="520"/>
+
+
+
+					<label text="Briga:" horzTextAlign="trailing" width="50" top="85" fontColor="black" />
+
+					<edit field="briga" horzTextAlign="center" width="30" top="80" fontColor="black" left="70" />
+
+					<label text="Agilidade:" horzTextAlign="trailing" width="100" top="85" fontColor="black" left="120"/>
+
+					<edit field="agilidade" horzTextAlign="center" width="30" top="80" fontColor="black" left="225"/>
+
+					<label text="Visibilidade:" horzTextAlign="trailing" width="100" top="85" fontColor="black" left="270"/>
+
+					<edit field="visibilidade" horzTextAlign="center" width="30" top="80" fontColor="black" left="380"/>
+
+					<label text="Persuasão:" horzTextAlign="trailing" width="100" top="85" fontColor="black" left="410"/>
+
+					<edit field="persuasao" horzTextAlign="center" width="30" top="80" fontColor="black" left="520"/>
+
+
+
+					<label text="Arma:" horzTextAlign="trailing" width="50" top="120" fontColor="black" />
+
+					<edit field="arma" horzTextAlign="center" width="30" top="115" fontColor="black" left="70" />
+
+					<label text="Esquiva:" horzTextAlign="trailing" width="100" top="120" fontColor="black" left="120"/>
+
+					<edit field="esquiva" horzTextAlign="center" width="30" top="115" fontColor="black" left="225"/>
+
+					<label text="Visão:" horzTextAlign="trailing" width="100" top="120" fontColor="black" left="270"/>
+
+					<edit field="visao" horzTextAlign="center" width="30" top="115" fontColor="black" left="380"/>
+
+					<label text="Raciocinio:" horzTextAlign="trailing" width="100" top="120" fontColor="black" left="410"/>
+
+					<edit field="raciocinio" horzTextAlign="center" width="30" top="115" fontColor="black" left="520"/>
+
+
+
+
+					<label text="Distancia:" horzTextAlign="center" width="70" top="155" fontColor="black" />
+
+					<edit field="distancia" horzTextAlign="center" width="30" top="150" fontColor="black" left="70" />
+
+					<label text="Refrexo:" horzTextAlign="trailing" width="100" top="155" fontColor="black" left="120"/>
+
+					<edit field="reflexo" horzTextAlign="center" width="30" top="150" fontColor="black" left="225"/>
+
+					<label text="Furtividade:" horzTextAlign="trailing" width="100" top="155" fontColor="black" left="270"/>
+
+					<edit field="furtividade" horzTextAlign="center" width="30" top="150" fontColor="black" left="380"/>
+
+					<label text="Intimidação:" horzTextAlign="trailing" width="100" top="155" fontColor="black" left="410"/>
+
+					<edit field="intimidação" horzTextAlign="center" width="30" top="150" fontColor="black" left="520"/>
+
+
+
+					<label text="Vigor:" horzTextAlign="trailing" width="50" top="190" fontColor="black" />
+
+					<edit field="vigor" horzTextAlign="center" width="30" top="185" fontColor="black" left="70" />
+
+					<label text="Perícia:" horzTextAlign="trailing" width="100" top="190" fontColor="black" left="120"/>
+
+					<edit field="pericia" horzTextAlign="center" width="30" top="185" fontColor="black" left="225"/>
+
+					<label text="Mira:" horzTextAlign="trailing" width="100" top="190" fontColor="black" left="270"/>
+
+					<edit field="mira" horzTextAlign="center" width="30" top="185" fontColor="black" left="380"/>
+
+					<label text="Negociação:" horzTextAlign="trailing" width="100" top="190" fontColor="black" left="410"/>
+
+					<edit field="negociacao" horzTextAlign="center" width="30" top="185" fontColor="black" left="520"/>
+
+				</layout>
+
+				<layout width="600" height="100" align="top">
+
+					<label text="HP:" horzTextAlign="trailing" width="40" fontColor="black" top="30" />	
+
+					<edit field="hp" horzTextAlign="center" width="30" fontColor="black" left="50" top="25" />
+
+					<label text="+" horzTextAlign="trailing" width="15" fontColor="black" top="30" left="85" fontSize="20"/>
+
+					<edit field="hp2" horzTextAlign="center" width="30" fontColor="black" left="105" top="25" />	
+
+					<label text="-" horzTextAlign="trailing" width="15" fontColor="black" top="30" left="135" fontSize="20"/>
+
+					<edit field="hp3" horzTextAlign="center" width="30" fontColor="black" left="155" top="25" />	
+
+					<label text="%" horzTextAlign="trailing" width="15" fontColor="black" top="30" left="183"/>
+
+
+					<label text="=" horzTextAlign="trailing" width="15" fontColor="black" top="30" left="200" fontSize="20"/>
+
+					<label field="totalhp" horzTextAlign="center" width="40" fontColor="black" top="30" left="210" fontStyle="italic"/>
+
+					<dataLink fields="{'hp','hp2','hp3'}">
+
+						<event name="onChange">
+
+							local desconto = 0
+
+							sheet.totalhp = (tonumber(sheet.hp) or 0) +
+							(tonumber(sheet.hp2) or 0);
+
+							if sheet.hp3 ~= nil then
+							if	(tonumber(sheet.hp3)) > 0 then
+							desconto = 	(tonumber(sheet.hp3)) / 100;
+							end;
+							end;
+
+							if desconto > 0 then
+							sheet.totalhp = (tonumber(sheet.totalhp)) -
+							((tonumber(sheet.totalhp)) * 
+							(tonumber(desconto)));
+							end;
+
+							if	sheet.totalhp > 0 then
+							sheet.totalhp = "+" .. sheet.totalhp;
+							end;
+
+						</event>
+
+					</dataLink>
+
+					<script>
+						local function soma()
+						sheet.hp = sheet.hp + 1;
+
+						end;
+					</script>
+
+
+					<label text="ATK:" horzTextAlign="trailing" width="40" fontColor="black" top="65" />	
+
+					<edit field="atk" horzTextAlign="center" width="30" fontColor="black" left="50" top="60" />
+
+					<!--	<button left="40" top="40" text="+" onclick="soma()" /> -->
+
+					<label text="+" horzTextAlign="trailing" width="15" fontColor="black" top="65" left="85" fontSize="20"/>
+
+					<edit field="atk2" horzTextAlign="center" width="30" fontColor="black" left="105" top="60" />	
+
+					<label text="=" horzTextAlign="trailing" width="15" fontColor="black" top="65" left="200" fontSize="20"/>
+
+					<label field="totalatk" horzTextAlign="center" width="40" fontColor="black" top="65" left="210" fontStyle="italic"/>
+
+					<dataLink fields="{'atk','atk2'}">
+
+						<event name="onChange">
+
+							sheet.totalatk = (tonumber(sheet.atk) or 0) +
+							(tonumber(sheet.atk2) or 0);
+
+							if	sheet.totalatk > 0 then
+							sheet.totalatk = "+" .. sheet.totalatk;
+							end;
+
+						</event>
+
+					</dataLink>
+
+
+					<label text="MIRA" horzTextAlign="center" width="40" fontColor="black" top="0" fontStyle="bold" left="280"/>	
+
+					<label text="BLOCK" horzTextAlign="center" width="50" fontColor="black" top="0" fontStyle="bold" left="350"/>
+
+					<label text="REFLEXO" horzTextAlign="center" width="60" fontColor="black" top="0" fontStyle="bold" left="420"/>
+
+					<label text="VELOC." horzTextAlign="center" width="100" fontColor="black" top="0" fontStyle="bold" left="465"/>
+
+
+					<label text="Cega:" horzTextAlign="leading" width="40" fontColor="black" top="30"  left="257"/>
+
+					<edit field="cega" horzTextAlign="center" width="25" fontColor="black" top="25"  left="290"/>  	
+
+					<label text="%" horzTextAlign="center" width="15" fontColor="black" top="30"  left="313"/>
+
+					<label text="Shield:" horzTextAlign="center" width="50" fontColor="black" top="30"  left="330"/>
+
+					<edit field="shield" horzTextAlign="center" width="25" fontColor="black" top="25"  left="375"/>  	
+
+					<label text="%" horzTextAlign="center" width="15" fontColor="black" top="30"  left="399"/>
+
+					<edit field="reflexo2" horzTextAlign="center" width="30" fontColor="black" top="25"  left="430"/>
+
+					<label text="%" horzTextAlign="center" width="15" fontColor="black" top="30"  left="460"/>
+
+					<edit field="velocidade" horzTextAlign="center" width="70" fontColor="black" top="25"  left="480"/>
+
+
+
+					<label text="Foc.:" horzTextAlign="leading" width="40" fontColor="black" top="65"  left="257"/>
+
+					<edit field="focada" horzTextAlign="center" width="25" fontColor="black" top="60"  left="290"/>  	
+
+					<label text="%" horzTextAlign="center" width="15" fontColor="black" top="65"  left="313"/>
+
+					<label text="Arma:" horzTextAlign="center" width="50" fontColor="black" top="65"  left="330"/>
+
+					<edit field="arma" horzTextAlign="center" width="25" fontColor="black" top="60"  left="375"/>  	
+
+					<label text="%" horzTextAlign="center" width="15" fontColor="black" top="60"  left="399"/>
+
+				</layout>
+
+				<layout	width="600" height="250" align="top">
+
+					<textEditor left="10" top="10" width="550" height="200" />
+
+				</layout> 
+
+			</scrollBox>
+
+		</tab>
+
+		<tab title="Habilidades">
+
+
+			<scrollBox align="client">
+
+				<layout width="600" height="150" align="top">
+
+					<label text="Vocação" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="20"/>
+
+					<textEditor left="10" top="50" width="550" height="100"  />
+
+				</layout>
+
+				<layout width="600" height="250" align="top">
+
+					<label text="Talento" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="20"/>
+
+					<label text="LVL1 =" horzTextAlign="center" width="50" top="50" left="10" fontColor="black" fontSize="15" />
+
+					<edit field="lvl1" width="500" top="45" left="60" horzTextAlign="center" fontColor="black" />
+
+
+					<label text="LVL3 =" horzTextAlign="center" width="50" top="85" left="10" fontColor="black" fontSize="15" />
+
+					<edit field="lvl3" width="500" top="80" left="60" horzTextAlign="center" fontColor="black" />
+
+
+					<label text="LVL5 =" horzTextAlign="center" width="50" top="120" left="10" fontColor="black" fontSize="15" />
+
+					<edit field="lvl5" width="500" top="115" left="60" horzTextAlign="center" fontColor="black" />
+
+
+					<label text="LVL7 =" horzTextAlign="center" width="50" top="155" left="10" fontColor="black" fontSize="15" />
+
+					<edit field="lvl7" width="500" top="150" left="60" horzTextAlign="center" fontColor="black" />
+
+
+					<label text="LVL10 =" horzTextAlign="center" width="60" top="190" left="1" fontColor="black" fontSize="15" />
+
+					<edit field="lvl10" width="500" top="185" left="60" horzTextAlign="center" fontColor="black" />
+
+
+				</layout>
+
+				<layout width="600" height="250" align="top">
+
+					<label text="Habilidades de combate" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="20"/>
+
+					<textEditor left="10" top="50" width="550" height="200"  />
+
+
+				</layout>
+			</scrollBox>
+		</tab>
+		<tab title="Equipamentos">
+
+
+			<scrollBox align="client">
+
+				<layout width="600" height="150" align="top">
+
+					<label text="Mão Direita" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="20"/>
+
+					<textEditor left="10" top="50" width="550" height="100"  />
+
+				</layout>
+
+
+				<layout width="600" height="150" align="top">
+
+					<label text="Mão Esquerda" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="20"/>
+
+					<textEditor left="10" top="50" width="550" height="100"  />
+
+				</layout>
+
+				<layout width="600" height="150" align="top">
+
+					<label text="Corpo" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="30"/>
+
+					<textEditor left="10" top="50" width="550" height="100"  />
+
+				</layout>
+
+
+				<layout width="600" height="250" align="top">
+
+					<label text="Mochila" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="20"/>
+
+					<edit field="slot" horzTextAlign="center" width="30" top="50" fontColor="black" left="10"/>
+
+					<label text="slot" horzTextAlign="center" width="30" top="50" fontColor="black" left="40" />
+
+					<textEditor left="10" top="85" width="550" height="100"  />
+
+				</layout>
+			</scrollBox>
+		</tab>			
+		<tab title="Outros">
+
+
+			<scrollBox align="client">
+
+				<layout width="600" height="250" align="top">
+
+					<label text="História" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="30"/>
+
+					<textEditor left="10" top="50" width="550" height="200"  />
+
+				</layout>
+
+				<layout width="600" height="450" align="top">
+
+					<label text="Outros" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="30"/>
+
+					<textEditor left="10" top="50" width="550" height="400"  />
+
+				</layout>
+			</scrollBox>
+		</tab>
+	</tabControl>
+</form>
