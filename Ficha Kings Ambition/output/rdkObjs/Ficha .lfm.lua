@@ -270,7 +270,7 @@ function newfrmkingsambition()
     obj.label11:setTop(15);
     obj.label11:setFontColor("black");
     obj.label11:setFontSize(25);
-    obj.label11:setHeight(20);
+    obj.label11:setHeight(30);
     obj.label11:setName("label11");
 
     obj.label12 = gui.fromHandle(_obj_newObject("label"));
@@ -289,7 +289,7 @@ function newfrmkingsambition()
     obj.edit11:setHorzTextAlign("center");
     obj.edit11:setWidth(30);
     obj.edit11:setTop(45);
-    obj.edit11:setFontColor("black");
+    obj.edit11:setFontColor("white");
     obj.edit11:setLeft(70);
     obj.edit11:setName("edit11");
 
@@ -310,7 +310,7 @@ function newfrmkingsambition()
     obj.edit12:setHorzTextAlign("center");
     obj.edit12:setWidth(30);
     obj.edit12:setTop(45);
-    obj.edit12:setFontColor("black");
+    obj.edit12:setFontColor("white");
     obj.edit12:setLeft(225);
     obj.edit12:setName("edit12");
 
@@ -331,7 +331,7 @@ function newfrmkingsambition()
     obj.edit13:setHorzTextAlign("center");
     obj.edit13:setWidth(30);
     obj.edit13:setTop(45);
-    obj.edit13:setFontColor("black");
+    obj.edit13:setFontColor("white");
     obj.edit13:setLeft(380);
     obj.edit13:setName("edit13");
 
@@ -352,7 +352,7 @@ function newfrmkingsambition()
     obj.edit14:setHorzTextAlign("center");
     obj.edit14:setWidth(30);
     obj.edit14:setTop(45);
-    obj.edit14:setFontColor("black");
+    obj.edit14:setFontColor("white");
     obj.edit14:setLeft(520);
     obj.edit14:setName("edit14");
 
@@ -371,7 +371,7 @@ function newfrmkingsambition()
     obj.edit15:setHorzTextAlign("center");
     obj.edit15:setWidth(30);
     obj.edit15:setTop(80);
-    obj.edit15:setFontColor("black");
+    obj.edit15:setFontColor("white");
     obj.edit15:setLeft(70);
     obj.edit15:setName("edit15");
 
@@ -391,7 +391,7 @@ function newfrmkingsambition()
     obj.edit16:setHorzTextAlign("center");
     obj.edit16:setWidth(30);
     obj.edit16:setTop(80);
-    obj.edit16:setFontColor("black");
+    obj.edit16:setFontColor("white");
     obj.edit16:setLeft(225);
     obj.edit16:setName("edit16");
 
@@ -411,7 +411,7 @@ function newfrmkingsambition()
     obj.edit17:setHorzTextAlign("center");
     obj.edit17:setWidth(30);
     obj.edit17:setTop(80);
-    obj.edit17:setFontColor("black");
+    obj.edit17:setFontColor("white");
     obj.edit17:setLeft(380);
     obj.edit17:setName("edit17");
 
@@ -431,7 +431,7 @@ function newfrmkingsambition()
     obj.edit18:setHorzTextAlign("center");
     obj.edit18:setWidth(30);
     obj.edit18:setTop(80);
-    obj.edit18:setFontColor("black");
+    obj.edit18:setFontColor("white");
     obj.edit18:setLeft(520);
     obj.edit18:setName("edit18");
 
@@ -450,7 +450,7 @@ function newfrmkingsambition()
     obj.edit19:setHorzTextAlign("center");
     obj.edit19:setWidth(30);
     obj.edit19:setTop(115);
-    obj.edit19:setFontColor("black");
+    obj.edit19:setFontColor("white");
     obj.edit19:setLeft(70);
     obj.edit19:setName("edit19");
 
@@ -470,7 +470,7 @@ function newfrmkingsambition()
     obj.edit20:setHorzTextAlign("center");
     obj.edit20:setWidth(30);
     obj.edit20:setTop(115);
-    obj.edit20:setFontColor("black");
+    obj.edit20:setFontColor("white");
     obj.edit20:setLeft(225);
     obj.edit20:setName("edit20");
 
@@ -490,7 +490,7 @@ function newfrmkingsambition()
     obj.edit21:setHorzTextAlign("center");
     obj.edit21:setWidth(30);
     obj.edit21:setTop(115);
-    obj.edit21:setFontColor("black");
+    obj.edit21:setFontColor("white");
     obj.edit21:setLeft(380);
     obj.edit21:setName("edit21");
 
@@ -510,7 +510,7 @@ function newfrmkingsambition()
     obj.edit22:setHorzTextAlign("center");
     obj.edit22:setWidth(30);
     obj.edit22:setTop(115);
-    obj.edit22:setFontColor("black");
+    obj.edit22:setFontColor("white");
     obj.edit22:setLeft(520);
     obj.edit22:setName("edit22");
 
@@ -529,7 +529,7 @@ function newfrmkingsambition()
     obj.edit23:setHorzTextAlign("center");
     obj.edit23:setWidth(30);
     obj.edit23:setTop(150);
-    obj.edit23:setFontColor("black");
+    obj.edit23:setFontColor("white");
     obj.edit23:setLeft(70);
     obj.edit23:setName("edit23");
 
@@ -549,7 +549,7 @@ function newfrmkingsambition()
     obj.edit24:setHorzTextAlign("center");
     obj.edit24:setWidth(30);
     obj.edit24:setTop(150);
-    obj.edit24:setFontColor("black");
+    obj.edit24:setFontColor("white");
     obj.edit24:setLeft(225);
     obj.edit24:setName("edit24");
 
@@ -569,7 +569,7 @@ function newfrmkingsambition()
     obj.edit25:setHorzTextAlign("center");
     obj.edit25:setWidth(30);
     obj.edit25:setTop(150);
-    obj.edit25:setFontColor("black");
+    obj.edit25:setFontColor("white");
     obj.edit25:setLeft(380);
     obj.edit25:setName("edit25");
 
@@ -589,7 +589,7 @@ function newfrmkingsambition()
     obj.edit26:setHorzTextAlign("center");
     obj.edit26:setWidth(30);
     obj.edit26:setTop(150);
-    obj.edit26:setFontColor("black");
+    obj.edit26:setFontColor("white");
     obj.edit26:setLeft(520);
     obj.edit26:setName("edit26");
 
@@ -608,7 +608,7 @@ function newfrmkingsambition()
     obj.edit27:setHorzTextAlign("center");
     obj.edit27:setWidth(30);
     obj.edit27:setTop(185);
-    obj.edit27:setFontColor("black");
+    obj.edit27:setFontColor("white");
     obj.edit27:setLeft(70);
     obj.edit27:setName("edit27");
 
@@ -628,7 +628,7 @@ function newfrmkingsambition()
     obj.edit28:setHorzTextAlign("center");
     obj.edit28:setWidth(30);
     obj.edit28:setTop(185);
-    obj.edit28:setFontColor("black");
+    obj.edit28:setFontColor("white");
     obj.edit28:setLeft(225);
     obj.edit28:setName("edit28");
 
@@ -648,7 +648,7 @@ function newfrmkingsambition()
     obj.edit29:setHorzTextAlign("center");
     obj.edit29:setWidth(30);
     obj.edit29:setTop(185);
-    obj.edit29:setFontColor("black");
+    obj.edit29:setFontColor("white");
     obj.edit29:setLeft(380);
     obj.edit29:setName("edit29");
 
@@ -668,7 +668,7 @@ function newfrmkingsambition()
     obj.edit30:setHorzTextAlign("center");
     obj.edit30:setWidth(30);
     obj.edit30:setTop(185);
-    obj.edit30:setFontColor("black");
+    obj.edit30:setFontColor("white");
     obj.edit30:setLeft(520);
     obj.edit30:setName("edit30");
 
@@ -693,7 +693,7 @@ function newfrmkingsambition()
     obj.edit31:setField("hp");
     obj.edit31:setHorzTextAlign("center");
     obj.edit31:setWidth(30);
-    obj.edit31:setFontColor("black");
+    obj.edit31:setFontColor("white");
     obj.edit31:setLeft(50);
     obj.edit31:setTop(25);
     obj.edit31:setName("edit31");
@@ -714,7 +714,7 @@ function newfrmkingsambition()
     obj.edit32:setField("hp2");
     obj.edit32:setHorzTextAlign("center");
     obj.edit32:setWidth(30);
-    obj.edit32:setFontColor("black");
+    obj.edit32:setFontColor("white");
     obj.edit32:setLeft(105);
     obj.edit32:setTop(25);
     obj.edit32:setName("edit32");
@@ -735,7 +735,7 @@ function newfrmkingsambition()
     obj.edit33:setField("hp3");
     obj.edit33:setHorzTextAlign("center");
     obj.edit33:setWidth(30);
-    obj.edit33:setFontColor("black");
+    obj.edit33:setFontColor("white");
     obj.edit33:setLeft(155);
     obj.edit33:setTop(25);
     obj.edit33:setName("edit33");
@@ -766,7 +766,7 @@ function newfrmkingsambition()
     obj.label37:setField("totalhp");
     obj.label37:setHorzTextAlign("center");
     obj.label37:setWidth(40);
-    obj.label37:setFontColor("black");
+    obj.label37:setFontColor("white");
     obj.label37:setTop(30);
     obj.label37:setLeft(210);
     lfm_setPropAsString(obj.label37, "fontStyle",  "italic");
@@ -799,7 +799,7 @@ function newfrmkingsambition()
     obj.edit34:setField("atk");
     obj.edit34:setHorzTextAlign("center");
     obj.edit34:setWidth(30);
-    obj.edit34:setFontColor("black");
+    obj.edit34:setFontColor("white");
     obj.edit34:setLeft(50);
     obj.edit34:setTop(60);
     obj.edit34:setName("edit34");
@@ -820,7 +820,7 @@ function newfrmkingsambition()
     obj.edit35:setField("atk2");
     obj.edit35:setHorzTextAlign("center");
     obj.edit35:setWidth(30);
-    obj.edit35:setFontColor("black");
+    obj.edit35:setFontColor("white");
     obj.edit35:setLeft(105);
     obj.edit35:setTop(60);
     obj.edit35:setName("edit35");
@@ -841,7 +841,7 @@ function newfrmkingsambition()
     obj.label41:setField("totalatk");
     obj.label41:setHorzTextAlign("center");
     obj.label41:setWidth(40);
-    obj.label41:setFontColor("black");
+    obj.label41:setFontColor("white");
     obj.label41:setTop(65);
     obj.label41:setLeft(210);
     lfm_setPropAsString(obj.label41, "fontStyle",  "italic");
@@ -941,7 +941,7 @@ function newfrmkingsambition()
     obj.edit37:setField("shield");
     obj.edit37:setHorzTextAlign("center");
     obj.edit37:setWidth(25);
-    obj.edit37:setFontColor("black");
+    obj.edit37:setFontColor("white");
     obj.edit37:setTop(25);
     obj.edit37:setLeft(375);
     obj.edit37:setName("edit37");
@@ -961,7 +961,7 @@ function newfrmkingsambition()
     obj.edit38:setField("reflexo2");
     obj.edit38:setHorzTextAlign("center");
     obj.edit38:setWidth(30);
-    obj.edit38:setFontColor("black");
+    obj.edit38:setFontColor("white");
     obj.edit38:setTop(25);
     obj.edit38:setLeft(430);
     obj.edit38:setName("edit38");
@@ -981,7 +981,7 @@ function newfrmkingsambition()
     obj.edit39:setField("velocidade");
     obj.edit39:setHorzTextAlign("center");
     obj.edit39:setWidth(70);
-    obj.edit39:setFontColor("black");
+    obj.edit39:setFontColor("white");
     obj.edit39:setTop(25);
     obj.edit39:setLeft(480);
     obj.edit39:setName("edit39");
@@ -1001,7 +1001,7 @@ function newfrmkingsambition()
     obj.edit40:setField("focada");
     obj.edit40:setHorzTextAlign("center");
     obj.edit40:setWidth(25);
-    obj.edit40:setFontColor("black");
+    obj.edit40:setFontColor("white");
     obj.edit40:setTop(60);
     obj.edit40:setLeft(290);
     obj.edit40:setName("edit40");
@@ -1031,7 +1031,7 @@ function newfrmkingsambition()
     obj.edit41:setField("arma");
     obj.edit41:setHorzTextAlign("center");
     obj.edit41:setWidth(25);
-    obj.edit41:setFontColor("black");
+    obj.edit41:setFontColor("white");
     obj.edit41:setTop(60);
     obj.edit41:setLeft(375);
     obj.edit41:setName("edit41");
@@ -1086,7 +1086,7 @@ function newfrmkingsambition()
     obj.label55:setTop(15);
     obj.label55:setFontColor("black");
     obj.label55:setFontSize(25);
-    obj.label55:setHeight(20);
+    obj.label55:setHeight(30);
     obj.label55:setName("label55");
 
     obj.textEditor2 = gui.fromHandle(_obj_newObject("textEditor"));
@@ -1112,7 +1112,7 @@ function newfrmkingsambition()
     obj.label56:setTop(15);
     obj.label56:setFontColor("black");
     obj.label56:setFontSize(25);
-    obj.label56:setHeight(20);
+    obj.label56:setHeight(30);
     obj.label56:setName("label56");
 
     obj.label57 = gui.fromHandle(_obj_newObject("label"));
@@ -1133,7 +1133,7 @@ function newfrmkingsambition()
     obj.edit42:setTop(45);
     obj.edit42:setLeft(60);
     obj.edit42:setHorzTextAlign("center");
-    obj.edit42:setFontColor("black");
+    obj.edit42:setFontColor("white");
     obj.edit42:setName("edit42");
 
     obj.label58 = gui.fromHandle(_obj_newObject("label"));
@@ -1154,7 +1154,7 @@ function newfrmkingsambition()
     obj.edit43:setTop(80);
     obj.edit43:setLeft(60);
     obj.edit43:setHorzTextAlign("center");
-    obj.edit43:setFontColor("black");
+    obj.edit43:setFontColor("white");
     obj.edit43:setName("edit43");
 
     obj.label59 = gui.fromHandle(_obj_newObject("label"));
@@ -1175,7 +1175,7 @@ function newfrmkingsambition()
     obj.edit44:setTop(115);
     obj.edit44:setLeft(60);
     obj.edit44:setHorzTextAlign("center");
-    obj.edit44:setFontColor("black");
+    obj.edit44:setFontColor("white");
     obj.edit44:setName("edit44");
 
     obj.label60 = gui.fromHandle(_obj_newObject("label"));
@@ -1196,7 +1196,7 @@ function newfrmkingsambition()
     obj.edit45:setTop(150);
     obj.edit45:setLeft(60);
     obj.edit45:setHorzTextAlign("center");
-    obj.edit45:setFontColor("black");
+    obj.edit45:setFontColor("white");
     obj.edit45:setName("edit45");
 
     obj.label61 = gui.fromHandle(_obj_newObject("label"));
@@ -1217,7 +1217,7 @@ function newfrmkingsambition()
     obj.edit46:setTop(185);
     obj.edit46:setLeft(60);
     obj.edit46:setHorzTextAlign("center");
-    obj.edit46:setFontColor("black");
+    obj.edit46:setFontColor("white");
     obj.edit46:setName("edit46");
 
     obj.layout7 = gui.fromHandle(_obj_newObject("layout"));
@@ -1235,7 +1235,7 @@ function newfrmkingsambition()
     obj.label62:setTop(15);
     obj.label62:setFontColor("black");
     obj.label62:setFontSize(25);
-    obj.label62:setHeight(20);
+    obj.label62:setHeight(30);
     obj.label62:setName("label62");
 
     obj.textEditor3 = gui.fromHandle(_obj_newObject("textEditor"));
@@ -1271,7 +1271,7 @@ function newfrmkingsambition()
     obj.label63:setTop(15);
     obj.label63:setFontColor("black");
     obj.label63:setFontSize(25);
-    obj.label63:setHeight(20);
+    obj.label63:setHeight(30);
     obj.label63:setName("label63");
 
     obj.textEditor4 = gui.fromHandle(_obj_newObject("textEditor"));
@@ -1297,7 +1297,7 @@ function newfrmkingsambition()
     obj.label64:setTop(15);
     obj.label64:setFontColor("black");
     obj.label64:setFontSize(25);
-    obj.label64:setHeight(20);
+    obj.label64:setHeight(30);
     obj.label64:setName("label64");
 
     obj.textEditor5 = gui.fromHandle(_obj_newObject("textEditor"));
@@ -1349,7 +1349,7 @@ function newfrmkingsambition()
     obj.label66:setTop(15);
     obj.label66:setFontColor("black");
     obj.label66:setFontSize(25);
-    obj.label66:setHeight(20);
+    obj.label66:setHeight(30);
     obj.label66:setName("label66");
 
     obj.edit47 = gui.fromHandle(_obj_newObject("edit"));
