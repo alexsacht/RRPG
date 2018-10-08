@@ -42,22 +42,23 @@ function newfrmkingsambition()
 
     obj.tab1 = gui.fromHandle(_obj_newObject("tab"));
     obj.tab1:setParent(obj.tabControl1);
-    obj.tab1:setTitle("Atributos");
+    obj.tab1:setTitle("ATRIBUTOS");
+    obj.tab1:setTabOrder(0);
     obj.tab1:setName("tab1");
 
-    obj.scrollBox1 = gui.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox1:setParent(obj.tab1);
-    obj.scrollBox1:setAlign("client");
-    obj.scrollBox1:setName("scrollBox1");
-
     obj.rectangle1 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle1:setParent(obj.scrollBox1);
+    obj.rectangle1:setParent(obj.tab1);
     obj.rectangle1:setAlign("client");
     obj.rectangle1:setColor("grey");
     obj.rectangle1:setName("rectangle1");
 
+    obj.scrollBox1 = gui.fromHandle(_obj_newObject("scrollBox"));
+    obj.scrollBox1:setParent(obj.rectangle1);
+    obj.scrollBox1:setAlign("client");
+    obj.scrollBox1:setName("scrollBox1");
+
     obj.layout1 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout1:setParent(obj.rectangle1);
+    obj.layout1:setParent(obj.scrollBox1);
     obj.layout1:setWidth(600);
     obj.layout1:setHeight(150);
     obj.layout1:setAlign("top");
@@ -277,7 +278,7 @@ function newfrmkingsambition()
     obj.edit11:setName("edit11");
 
     obj.layout2 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout2:setParent(obj.rectangle1);
+    obj.layout2:setParent(obj.scrollBox1);
     obj.layout2:setWidth(600);
     obj.layout2:setHeight(250);
     obj.layout2:setAlign("top");
@@ -694,7 +695,7 @@ function newfrmkingsambition()
     obj.edit31:setName("edit31");
 
     obj.layout3 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout3:setParent(obj.rectangle1);
+    obj.layout3:setParent(obj.scrollBox1);
     obj.layout3:setWidth(600);
     obj.layout3:setHeight(100);
     obj.layout3:setAlign("top");
@@ -1069,22 +1070,23 @@ function newfrmkingsambition()
 
     obj.tab2 = gui.fromHandle(_obj_newObject("tab"));
     obj.tab2:setParent(obj.tabControl1);
-    obj.tab2:setTitle("Habilidades");
+    obj.tab2:setTitle("HABILIDADES");
+    obj.tab2:setTabOrder(1);
     obj.tab2:setName("tab2");
 
-    obj.scrollBox2 = gui.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox2:setParent(obj.tab2);
-    obj.scrollBox2:setAlign("client");
-    obj.scrollBox2:setName("scrollBox2");
-
     obj.rectangle2 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle2:setParent(obj.scrollBox2);
+    obj.rectangle2:setParent(obj.tab2);
     obj.rectangle2:setAlign("client");
     obj.rectangle2:setColor("grey");
     obj.rectangle2:setName("rectangle2");
 
+    obj.scrollBox2 = gui.fromHandle(_obj_newObject("scrollBox"));
+    obj.scrollBox2:setParent(obj.rectangle2);
+    obj.scrollBox2:setAlign("client");
+    obj.scrollBox2:setName("scrollBox2");
+
     obj.layout4 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout4:setParent(obj.rectangle2);
+    obj.layout4:setParent(obj.scrollBox2);
     obj.layout4:setWidth(600);
     obj.layout4:setHeight(150);
     obj.layout4:setAlign("top");
@@ -1112,7 +1114,7 @@ function newfrmkingsambition()
     obj.textEditor1:setName("textEditor1");
 
     obj.layout5 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout5:setParent(obj.rectangle2);
+    obj.layout5:setParent(obj.scrollBox2);
     obj.layout5:setWidth(600);
     obj.layout5:setHeight(250);
     obj.layout5:setAlign("top");
@@ -1235,7 +1237,7 @@ function newfrmkingsambition()
     obj.edit47:setName("edit47");
 
     obj.layout6 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout6:setParent(obj.rectangle2);
+    obj.layout6:setParent(obj.scrollBox2);
     obj.layout6:setWidth(600);
     obj.layout6:setHeight(250);
     obj.layout6:setAlign("top");
@@ -1258,7 +1260,7 @@ function newfrmkingsambition()
     obj.edit48:setWidth(500);
     obj.edit48:setTop(45);
     obj.edit48:setLeft(5);
-    obj.edit48:setHorzTextAlign("center");
+    obj.edit48:setHorzTextAlign("leading");
     obj.edit48:setFontColor("black");
     obj.edit48:setName("edit48");
 
@@ -1268,7 +1270,7 @@ function newfrmkingsambition()
     obj.edit49:setWidth(500);
     obj.edit49:setTop(80);
     obj.edit49:setLeft(5);
-    obj.edit49:setHorzTextAlign("center");
+    obj.edit49:setHorzTextAlign("leading");
     obj.edit49:setFontColor("black");
     obj.edit49:setName("edit49");
 
@@ -1278,7 +1280,7 @@ function newfrmkingsambition()
     obj.edit50:setWidth(500);
     obj.edit50:setTop(115);
     obj.edit50:setLeft(5);
-    obj.edit50:setHorzTextAlign("center");
+    obj.edit50:setHorzTextAlign("leading");
     obj.edit50:setFontColor("black");
     obj.edit50:setName("edit50");
 
@@ -1288,7 +1290,7 @@ function newfrmkingsambition()
     obj.edit51:setWidth(500);
     obj.edit51:setTop(150);
     obj.edit51:setLeft(5);
-    obj.edit51:setHorzTextAlign("center");
+    obj.edit51:setHorzTextAlign("leading");
     obj.edit51:setFontColor("black");
     obj.edit51:setName("edit51");
 
@@ -1298,7 +1300,7 @@ function newfrmkingsambition()
     obj.edit52:setWidth(500);
     obj.edit52:setTop(185);
     obj.edit52:setLeft(5);
-    obj.edit52:setHorzTextAlign("center");
+    obj.edit52:setHorzTextAlign("leading");
     obj.edit52:setFontColor("black");
     obj.edit52:setName("edit52");
 
@@ -1354,22 +1356,23 @@ function newfrmkingsambition()
 
     obj.tab3 = gui.fromHandle(_obj_newObject("tab"));
     obj.tab3:setParent(obj.tabControl1);
-    obj.tab3:setTitle("Equipamentos");
+    obj.tab3:setTitle("EQUIPAMENTOS");
+    obj.tab3:setTabOrder(2);
     obj.tab3:setName("tab3");
 
-    obj.scrollBox3 = gui.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox3:setParent(obj.tab3);
-    obj.scrollBox3:setAlign("client");
-    obj.scrollBox3:setName("scrollBox3");
-
     obj.rectangle3 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle3:setParent(obj.scrollBox3);
+    obj.rectangle3:setParent(obj.tab3);
     obj.rectangle3:setAlign("client");
     obj.rectangle3:setColor("grey");
     obj.rectangle3:setName("rectangle3");
 
+    obj.scrollBox3 = gui.fromHandle(_obj_newObject("scrollBox"));
+    obj.scrollBox3:setParent(obj.rectangle3);
+    obj.scrollBox3:setAlign("client");
+    obj.scrollBox3:setName("scrollBox3");
+
     obj.layout7 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout7:setParent(obj.rectangle3);
+    obj.layout7:setParent(obj.scrollBox3);
     obj.layout7:setWidth(600);
     obj.layout7:setHeight(100);
     obj.layout7:setAlign("top");
@@ -1397,7 +1400,7 @@ function newfrmkingsambition()
     obj.textEditor2:setName("textEditor2");
 
     obj.layout8 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout8:setParent(obj.rectangle3);
+    obj.layout8:setParent(obj.scrollBox3);
     obj.layout8:setWidth(600);
     obj.layout8:setHeight(100);
     obj.layout8:setAlign("top");
@@ -1425,7 +1428,7 @@ function newfrmkingsambition()
     obj.textEditor3:setName("textEditor3");
 
     obj.layout9 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout9:setParent(obj.rectangle3);
+    obj.layout9:setParent(obj.scrollBox3);
     obj.layout9:setWidth(600);
     obj.layout9:setHeight(100);
     obj.layout9:setAlign("top");
@@ -1453,7 +1456,7 @@ function newfrmkingsambition()
     obj.textEditor4:setName("textEditor4");
 
     obj.layout10 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout10:setParent(obj.rectangle3);
+    obj.layout10:setParent(obj.scrollBox3);
     obj.layout10:setWidth(600);
     obj.layout10:setHeight(200);
     obj.layout10:setAlign("top");
@@ -1501,7 +1504,7 @@ function newfrmkingsambition()
     obj.textEditor5:setName("textEditor5");
 
     obj.layout11 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout11:setParent(obj.rectangle3);
+    obj.layout11:setParent(obj.scrollBox3);
     obj.layout11:setWidth(600);
     obj.layout11:setHeight(200);
     obj.layout11:setAlign("top");
@@ -1550,22 +1553,23 @@ function newfrmkingsambition()
 
     obj.tab4 = gui.fromHandle(_obj_newObject("tab"));
     obj.tab4:setParent(obj.tabControl1);
-    obj.tab4:setTitle("Outros");
+    obj.tab4:setTitle("OUTROS");
+    obj.tab4:setTabOrder(3);
     obj.tab4:setName("tab4");
 
-    obj.scrollBox4 = gui.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox4:setParent(obj.tab4);
-    obj.scrollBox4:setAlign("client");
-    obj.scrollBox4:setName("scrollBox4");
-
     obj.rectangle4 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle4:setParent(obj.scrollBox4);
+    obj.rectangle4:setParent(obj.tab4);
     obj.rectangle4:setAlign("client");
     obj.rectangle4:setColor("grey");
     obj.rectangle4:setName("rectangle4");
 
+    obj.scrollBox4 = gui.fromHandle(_obj_newObject("scrollBox"));
+    obj.scrollBox4:setParent(obj.rectangle4);
+    obj.scrollBox4:setAlign("client");
+    obj.scrollBox4:setName("scrollBox4");
+
     obj.layout12 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout12:setParent(obj.rectangle4);
+    obj.layout12:setParent(obj.scrollBox4);
     obj.layout12:setWidth(600);
     obj.layout12:setHeight(250);
     obj.layout12:setAlign("top");
@@ -1593,7 +1597,7 @@ function newfrmkingsambition()
     obj.textEditor7:setName("textEditor7");
 
     obj.layout13 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout13:setParent(obj.rectangle4);
+    obj.layout13:setParent(obj.scrollBox4);
     obj.layout13:setWidth(600);
     obj.layout13:setHeight(450);
     obj.layout13:setAlign("top");
@@ -1840,8 +1844,8 @@ function newfrmkingsambition()
         if self.layout6 ~= nil then self.layout6:destroy(); self.layout6 = nil; end;
         if self.label62 ~= nil then self.label62:destroy(); self.label62 = nil; end;
         if self.edit49 ~= nil then self.edit49:destroy(); self.edit49 = nil; end;
-        if self.scrollBox4 ~= nil then self.scrollBox4:destroy(); self.scrollBox4 = nil; end;
         if self.rectangle4 ~= nil then self.rectangle4:destroy(); self.rectangle4 = nil; end;
+        if self.scrollBox4 ~= nil then self.scrollBox4:destroy(); self.scrollBox4 = nil; end;
         if self.edit27 ~= nil then self.edit27:destroy(); self.edit27 = nil; end;
         if self.edit32 ~= nil then self.edit32:destroy(); self.edit32 = nil; end;
         if self.tab1 ~= nil then self.tab1:destroy(); self.tab1 = nil; end;

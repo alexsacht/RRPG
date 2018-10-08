@@ -6,12 +6,12 @@
 
 
 	<tabControl width="600" height="750" align="client">
-		<tab title="Atributos">
+		<tab title="ATRIBUTOS" tabOrder="0">
+
+			<rectangle align="client" color="grey"> 
+				<scrollBox align="client">
 
 
-			<scrollBox align="client">
-
-				<rectangle align="client" color="grey">
 
 					<layout width="600" height="150" align="top"  >
 
@@ -311,18 +311,19 @@
 
 					</layout>
 
-				</rectangle>
 
-			</scrollBox>
+
+				</scrollBox>
+
+			</rectangle>
 
 		</tab>
 
-		<tab title="Habilidades">
+		<tab title="HABILIDADES" tabOrder="1">
 
+			<rectangle align="client" color="grey">
 
-			<scrollBox align="client">
-
-				<rectangle align="client" color="grey">
+				<scrollBox align="client">
 
 					<layout width="600" height="150" align="top">
 
@@ -368,15 +369,15 @@
 						<label text="Habilidades de combate" horzTextAlign="center" width="550" top="15" fontColor="black" fontSize="25" height="30"/>
 
 
-						<edit field="combate1" width="500" top="45" left="5" horzTextAlign="center" fontColor="black" />
+						<edit field="combate1" width="500" top="45" left="5" horzTextAlign="leading" fontColor="black" />
 
-						<edit field="combate2" width="500" top="80" left="5" horzTextAlign="center" fontColor="black" />
+						<edit field="combate2" width="500" top="80" left="5" horzTextAlign="leading" fontColor="black" />
 
-						<edit field="combate3" width="500" top="115" left="5" horzTextAlign="center" fontColor="black" />
+						<edit field="combate3" width="500" top="115" left="5" horzTextAlign="leading" fontColor="black" />
 
-						<edit field="combate4" width="500" top="150" left="5" horzTextAlign="center" fontColor="black" />
+						<edit field="combate4" width="500" top="150" left="5" horzTextAlign="leading" fontColor="black" />
 
-						<edit field="combate5" width="500" top="185" left="5" horzTextAlign="center" fontColor="black" />
+						<edit field="combate5" width="500" top="185" left="5" horzTextAlign="leading" fontColor="black" />
 
 
 						<edit field="gastocombate1" width="50" top="45" left="510" horzTextAlign="center" fontColor="black" />
@@ -389,18 +390,17 @@
 
 						<edit field="gastocombate5" width="50" top="185" left="510" horzTextAlign="center" fontColor="black" />
 
-
-
 					</layout>
-				</rectangle>
-			</scrollBox>
+				</scrollBox>
+			</rectangle>
 		</tab>
-		<tab title="Equipamentos">
+		<tab title="EQUIPAMENTOS" tabOrder="2">
+
+			<rectangle align="client" color="grey">
+
+				<scrollBox align="client">
 
 
-			<scrollBox align="client">
-
-				<rectangle align="client" color="grey">
 
 					<layout width="600" height="100" align="top">
 
@@ -452,15 +452,15 @@
 						<textEditor field="text7" left="10" top="85" width="550" height="80" fontColor="black" />
 
 					</layout>
-				</rectangle>
-			</scrollBox>
+
+				</scrollBox>
+			</rectangle>
 		</tab>			
-		<tab title="Outros">
+		<tab title="OUTROS" tabOrder="3">
 
+			<rectangle align="client" color="grey">
+				<scrollBox align="client">
 
-			<scrollBox align="client">
-
-				<rectangle align="client" color="grey">
 
 					<layout width="600" height="250" align="top">
 
@@ -477,8 +477,8 @@
 						<textEditor field="text9" left="10" top="50" width="550" height="400"  fontColor="black"/>
 
 					</layout>
-				</rectangle>
-			</scrollBox>
+				</scrollBox>
+			</rectangle>
 		</tab>
 	</tabControl>
 </form>
