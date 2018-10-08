@@ -8,7 +8,7 @@
 	<tabControl width="600" height="750" align="client">
 		<tab title="ATRIBUTOS" tabOrder="0">
 
-			<rectangle align="client" color="grey"> 
+			<rectangle align="client" color="grey">  
 				<scrollBox align="client">
 
 
@@ -91,19 +91,19 @@
 
 						<label text="FORÇA:" horzTextAlign="trailing" width="50" top="50" fontColor="black" fontStyle="bold"/>
 
-						<edit field="forca" horzTextAlign="center" width="30" top="45" fontColor="black" left="70" />
+						<edit field="forca" horzTextAlign="center" width="30" top="45" fontColor="black" left="70" fontStyle="bold"  />
 
 						<label text="DESTREZA:" horzTextAlign="trailing" width="100" top="50" fontColor="black" fontStyle="bold" left="120"/>
 
-						<edit field="destreza" horzTextAlign="center" width="30" top="45" fontColor="black" left="225"/>
+						<edit field="destreza" horzTextAlign="center" width="30" top="45" fontColor="black" left="225" fontStyle="bold"/>
 
 						<label text="PERCEPÇÃO:" horzTextAlign="trailing" width="100" top="50" fontColor="black" fontStyle="bold" left="270"/>
 
-						<edit field="percepcao" horzTextAlign="center" width="30" top="45" fontColor="black" left="380"/>
+						<edit field="percepcao" horzTextAlign="center" width="30" top="45" fontColor="black" left="380" fontStyle="bold"/>
 
 						<label text="INTELIGÊNCIA:" horzTextAlign="trailing" width="100" top="50" fontColor="black" fontStyle="bold" left="410"/>
 
-						<edit field="inteligencia" horzTextAlign="center" width="30" top="45" fontColor="black" left="520"/>
+						<edit field="inteligencia" horzTextAlign="center" width="30" top="45" fontColor="black" left="520" fontStyle="bold"/>
 
 
 
