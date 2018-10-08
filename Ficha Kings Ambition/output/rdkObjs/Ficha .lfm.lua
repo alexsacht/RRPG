@@ -313,6 +313,7 @@ function newfrmkingsambition()
     obj.edit12:setTop(45);
     obj.edit12:setFontColor("black");
     obj.edit12:setLeft(70);
+    lfm_setPropAsString(obj.edit12, "fontStyle",  "bold");
     obj.edit12:setName("edit12");
 
     obj.label13 = gui.fromHandle(_obj_newObject("label"));
@@ -334,6 +335,7 @@ function newfrmkingsambition()
     obj.edit13:setTop(45);
     obj.edit13:setFontColor("black");
     obj.edit13:setLeft(225);
+    lfm_setPropAsString(obj.edit13, "fontStyle",  "bold");
     obj.edit13:setName("edit13");
 
     obj.label14 = gui.fromHandle(_obj_newObject("label"));
@@ -355,6 +357,7 @@ function newfrmkingsambition()
     obj.edit14:setTop(45);
     obj.edit14:setFontColor("black");
     obj.edit14:setLeft(380);
+    lfm_setPropAsString(obj.edit14, "fontStyle",  "bold");
     obj.edit14:setName("edit14");
 
     obj.label15 = gui.fromHandle(_obj_newObject("label"));
@@ -376,6 +379,7 @@ function newfrmkingsambition()
     obj.edit15:setTop(45);
     obj.edit15:setFontColor("black");
     obj.edit15:setLeft(520);
+    lfm_setPropAsString(obj.edit15, "fontStyle",  "bold");
     obj.edit15:setName("edit15");
 
     obj.label16 = gui.fromHandle(_obj_newObject("label"));
@@ -798,14 +802,6 @@ function newfrmkingsambition()
     obj.dataLink2:setParent(obj.layout3);
     obj.dataLink2:setFields({'hp','hp2','hp3'});
     obj.dataLink2:setName("dataLink2");
-
-
-							local function soma()
-							sheet.hp = sheet.hp + 1;
-
-							end;
-						
-
 
     obj.label38 = gui.fromHandle(_obj_newObject("label"));
     obj.label38:setParent(obj.layout3);

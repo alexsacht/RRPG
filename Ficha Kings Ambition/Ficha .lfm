@@ -229,14 +229,7 @@
 							</event>
 
 						</dataLink>
-
-						<script>
-							local function soma()
-							sheet.hp = sheet.hp + 1;
-
-							end;
-						</script>
-
+						
 
 						<label text="ATK:" horzTextAlign="trailing" width="40" fontColor="black" top="65" />	
 
