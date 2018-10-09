@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rectangle padding="{left=15, top=5}" align="client" color="black">
+
+	<scrollBox align="client">
+
+		<layout width="600" height="100" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="90" />
+
+			<label text="Mão Direita" horzTextAlign="center" width="550" top="7" fontSize="25" height="30"/>
+
+			<textEditor field="text3" left="10" top="40" width="550" height="50" />
+
+		</layout>
+
+		<layout width="600" height="100" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="90" />
+
+			<label text="Mão Esquerda" horzTextAlign="center" width="550" top="7" fontSize="25" height="30"/>
+
+			<textEditor field="text4" left="10" top="40" width="550" height="50" />
+
+		</layout>
+
+		<layout width="600" height="100" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="90" />
+
+			<label text="Corpo" horzTextAlign="center" width="550" top="7" fontSize="25" height="30"/>
+
+			<textEditor field="text5" left="10" top="40" width="550" height="50" />
+
+		</layout>
+
+		<layout width="600" height="200" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="190" />
+
+			<label text="Mochila" horzTextAlign="center" width="550" top="7" fontSize="25" height="30"/>
+
+			<edit field="slot" horzTextAlign="center" width="30" top="40" left="10"/>
+
+			<label text="slot" horzTextAlign="center" width="30" top="40" left="40" />
+
+			<textEditor field="text6" left="10" top="75" width="550" height="80" />
+
+		</layout>
+
+		<layout width="600" height="200" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="180" />
+
+			<label text="Porta Poção" horzTextAlign="center" width="550" top="7" fontSize="25" height="30"/>
+
+			<edit field="slotpot" horzTextAlign="center" width="30" top="40" left="10"/>
+
+			<label text="slot" horzTextAlign="center" width="30" top="40" left="40" />
+
+			<textEditor field="text7" left="10" top="75" width="550" height="80" />
+
+		</layout>
+
+	</scrollBox>
+</rectangle>

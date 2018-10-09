@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rectangle padding="{left=15, top=5}" align="client" color="black">
+	
+	<scrollBox align="client">
+
+		<layout width="600" height="250" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="240" />
+
+			<label text="História" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+
+			<textEditor field="text8" left="10" top="50" width="550" height="200" fontColor="black"  />
+
+		</layout>
+
+		<layout width="600" height="390" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="360" />
+
+			<label text="Anotações" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+
+			<textEditor field="text9" left="10" top="50" width="550" height="300" />
+
+		</layout>
+	</scrollBox>
+</rectangle>

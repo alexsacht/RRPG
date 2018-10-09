@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rectangle padding="{left=15, top=5}" align="client" color="black">  
+
+	<scrollBox align="client" >
+
+		<layout width="600" height="550">
+
+			<layout width="600" height="150" align="top"  >
+
+				<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="140" />
+
+
+				<label class="bold" text="King's Ambition" horzTextAlign="center" width="600" fontSize="25" height="50" />
+
+				<label text="Nome:" horzTextAlign="center" width="50" top="50"  />
+
+				<edit field="nome"  width="100" height="30" top="45" left="50" />
+
+				<label text="Classe:" horzTextAlign="center" width="50" top="50" left="200"/>
+
+				<edit field="classe"  width="100" height="30" top="45" left="250" />
+
+				<label text="EXP:" horzTextAlign="center" width="50" top="50" left="400"/>
+
+				<edit field="exp"  width="30" height="30" top="45" left="450" />
+
+				<label text="/" horzTextAlign="center" width="10" top="50" left="480" fontSize="25"/>
+
+				<edit field="exp_total"  width="30" height="30" top="45" left="495" />
+
+				<label text="Gold:" horzTextAlign="center" width="50" top="85" />
+
+				<edit field="gold"  width="40" height="30" top="80" left="50" />
+
+				<edit field="gastogold"  width="40" height="30" top="80" left="100" />
+
+				<dataLink fields="{'gold','gastogold'}">
+					<event name="onChange">
+
+						if sheet.gastogold ~= nil then
+						local totalgold = 0;
+
+						totalgold = (tonumber(sheet.gold));
+
+						sheet.gold = totalgold + 
+						(tonumber(sheet.gastogold));
+
+						sheet.gastogold = nill;
+						end;
+
+
+					</event>
+				</dataLink>
+
+				<label text="Tipo:" horzTextAlign="center" width="50" top="85"  left="200"/>
+
+				<edit field="tipo"  width="100" height="30" top="80" left="250" />
+
+				<label text="LVL:" horzTextAlign="center" width="50" top="85" left="400"/>
+
+				<edit field="lvl"  width="30" height="30" top="80" left="450" />
+
+
+				<label text="Reino:" horzTextAlign="center" width="50" top="120" />
+
+				<edit field="reino"  width="100" height="30" top="115" left="50" />
+
+				<label text="Rei:" horzTextAlign="center" width="50" top="120" left="200"/>
+
+				<edit field="rei"  width="100" height="30" top="115" left="250" />
+
+				<label text="Herói:" horzTextAlign="center" width="50" top="120" left="400"/>
+
+				<edit field="heroi"  width="100" height="30" top="115" left="450" />
+
+			</layout>
+
+			<layout width="600" height="250" align="top">
+
+				<rectangle class="rectangle_ficha" left="2" top="5" width="570" height="240"/>
+
+
+				<label text="Atributos Pessoais" horzTextAlign="center" width="600" top="5" fontSize="25" height="30"/>
+
+
+				<label class="bold" text="FORÇA:" horzTextAlign="trailing" width="50" top="50" />
+
+				<edit class="bold" field="forca" horzTextAlign="center" width="30" top="45"  left="70" />
+
+				<label class="bold" text="DESTREZA:" horzTextAlign="trailing" width="100" top="50" left="120"/>
+
+				<edit class="bold" field="destreza" horzTextAlign="center" width="30" top="45"  left="225" />
+
+				<label class="bold" text="PERCEPÇÃO:" horzTextAlign="trailing" width="100" top="50" left="270"/>
+
+				<edit class="bold" field="percepcao" horzTextAlign="center" width="30" top="45"  left="380" />
+
+				<label class="bold" text="INTELIGÊNCIA:" horzTextAlign="trailing" width="100" top="50" left="410"/>
+
+				<edit class="bold" field="inteligencia" horzTextAlign="center" width="30" top="45"  left="520" />
+
+
+
+				<label text="Briga:" horzTextAlign="trailing" width="50" top="85" />
+
+				<edit field="briga" horzTextAlign="center" width="30" top="80"  left="70" />
+
+				<label text="Agilidade:" horzTextAlign="trailing" width="100" top="85" left="120"/>
+
+				<edit field="agilidade" horzTextAlign="center" width="30" top="80"  left="225"/>
+
+				<label text="Visibilidade:" horzTextAlign="trailing" width="100" top="85" left="270"/>
+
+				<edit field="visibilidade" horzTextAlign="center" width="30" top="80"  left="380"/>
+
+				<label text="Persuasão:" horzTextAlign="trailing" width="100" top="85" left="410"/>
+
+				<edit field="persuasao" horzTextAlign="center" width="30" top="80"  left="520"/>
+
+
+
+				<label text="Arma:" horzTextAlign="trailing" width="50" top="120" />
+
+				<edit field="arma" horzTextAlign="center" width="30" top="115"  left="70" />
+
+				<label text="Esquiva:" horzTextAlign="trailing" width="100" top="120" left="120"/>
+
+				<edit field="esquiva" horzTextAlign="center" width="30" top="115"  left="225"/>
+
+				<label text="Visão:" horzTextAlign="trailing" width="100" top="120" left="270"/>
+
+				<edit field="visao" horzTextAlign="center" width="30" top="115"  left="380"/>
+
+				<label text="Raciocinio:" horzTextAlign="trailing" width="100" top="120" left="410"/>
+
+				<edit field="raciocinio" horzTextAlign="center" width="30" top="115" left="520"/>
+
+
+
+
+				<label text="Distancia:" horzTextAlign="center" width="70" top="155" />
+
+				<edit field="distancia" horzTextAlign="center" width="30" top="150"  left="70" />
+
+				<label text="Refrexo:" horzTextAlign="trailing" width="100" top="155" left="120"/>
+
+				<edit field="reflexo" horzTextAlign="center" width="30" top="150"  left="225"/>
+
+				<label text="Furtividade:" horzTextAlign="trailing" width="100" top="155" left="270"/>
+
+				<edit field="furtividade" horzTextAlign="center" width="30" top="150"  left="380"/>
+
+				<label text="Intimidação:" horzTextAlign="trailing" width="100" top="155" left="410"/>
+
+				<edit field="intimidação" horzTextAlign="center" width="30" top="150"  left="520"/>
+
+
+
+				<label text="Vigor:" horzTextAlign="trailing" width="50" top="190" />
+
+				<edit field="vigor" horzTextAlign="center" width="30" top="185"  left="70" />
+
+				<label text="Perícia:" horzTextAlign="trailing" width="100" top="190" left="120"/>
+
+				<edit field="pericia" horzTextAlign="center" width="30" top="185"  left="225"/>
+
+				<label text="Mira:" horzTextAlign="trailing" width="100" top="190" left="270"/>
+
+				<edit field="mira" horzTextAlign="center" width="30" top="185"  left="380"/>
+
+				<label text="Negociação:" horzTextAlign="trailing" width="100" top="190" left="410"/>
+
+				<edit field="negociacao" horzTextAlign="center" width="30" top="185"  left="520"/>
+
+			</layout>
+
+			<layout width="600" height="150" align="top">
+
+				<rectangle class="rectangle_ficha" left="2" top="0" width="570" height="140" />
+
+				<label text="HP:" horzTextAlign="trailing" width="40" top="30" />	
+
+				<edit field="hp" horzTextAlign="center" width="30" left="50" top="25" />
+
+				<label text="+" horzTextAlign="trailing" width="15" top="30" left="85" fontSize="20"/>
+
+				<edit field="hp2" horzTextAlign="center" width="30"  left="105" top="25" />	
+
+				<label text="-" horzTextAlign="trailing" width="15" top="30" left="135" fontSize="20"/>
+
+				<edit field="hp3" horzTextAlign="center" width="30" fontColor="red" left="155" top="25"  />	
+
+				<label text="%" horzTextAlign="trailing" width="15" top="30" left="183"/>
+
+
+				<label text="=" horzTextAlign="trailing" width="15" top="30" left="200" fontSize="20"/>
+
+				<label class="bold_italic" field="totalhp" horzTextAlign="center" width="40" top="30" left="210"/>
+
+				<dataLink fields="{'hp','hp2','hp3'}">
+
+					<event name="onChange">
+
+						local desconto = 0
+
+						sheet.totalhp = (tonumber(sheet.hp) or 0) +
+						(tonumber(sheet.hp2) or 0);
+
+						if sheet.hp3 ~= nil then
+						if	(tonumber(sheet.hp3)) > 0 then
+						desconto = 	(tonumber(sheet.hp3)) / 100;
+						end;
+						end;
+
+						if desconto > 0 then
+
+						sheet.totalhp = (tonumber(sheet.totalhp)) -
+						((tonumber(sheet.totalhp)) * 
+						(tonumber(desconto)));
+
+						end;
+
+						if	sheet.totalhp > 0 then
+						sheet.totalhp = "+" .. sheet.totalhp;
+						end;
+
+					</event>
+
+				</dataLink>
+
+
+				<label text="ATK 1:" horzTextAlign="trailing" width="40" top="65" />	
+
+				<edit field="atk" horzTextAlign="center" width="30"  left="50" top="60" />
+
+				<!--	<button left="40" top="40" text="+" onclick="soma()" /> -->
+
+				<label text="+" horzTextAlign="trailing" width="15" top="65" left="85" fontSize="20"/>
+
+				<edit field="atk2" horzTextAlign="center" width="30"  left="105" top="60" />	
+
+				<label text="=" horzTextAlign="trailing" width="15" top="65" left="200" fontSize="20"/>
+
+				<label class="bold_italic" field="totalatk" horzTextAlign="center" width="40" top="65" left="210" />
+
+				<dataLink fields="{'atk','atk2'}">
+
+					<event name="onChange">
+
+						sheet.totalatk = (tonumber(sheet.atk) or 0) +
+						(tonumber(sheet.atk2) or 0);
+
+						if	sheet.totalatk > 0 then
+						sheet.totalatk = "+" .. sheet.totalatk;
+						end;
+
+					</event>
+
+				</dataLink>
+
+				<label text="ATK 2:" horzTextAlign="trailing" width="40"  top="100" />	
+
+				<edit field="atk3" horzTextAlign="center" width="30"  left="50" top="95" />
+
+				<!--	<button left="40" top="40" text="+" onclick="soma()" /> -->
+
+				<label text="+" horzTextAlign="trailing" width="15"  top="100" left="85" fontSize="20"/>
+
+				<edit field="atk4" horzTextAlign="center" width="30"  left="105" top="95" />	
+
+				<label text="=" horzTextAlign="trailing" width="15"  top="100" left="200" fontSize="20"/>
+
+				<label class="bold_italic" field="totalatk2" horzTextAlign="center" width="40"  top="100" left="210"/>
+
+				<dataLink fields="{'atk3','atk4'}">
+
+					<event name="onChange">
+
+						sheet.totalatk2 = (tonumber(sheet.atk3) or 0) +
+						(tonumber(sheet.atk4) or 0);
+
+						if	sheet.totalatk2 > 0 then
+						sheet.totalatk2 = "+" .. sheet.totalatk2;
+						end;
+
+					</event>
+
+				</dataLink>
+
+
+				<label class="bold" text="MIRA" horzTextAlign="center" width="40" top="0" left="280"/>	
+
+				<label class="bold" text="BLOCK" horzTextAlign="center" width="50" top="0" left="350"/>
+
+				<label class="bold" text="REFLEXO" horzTextAlign="center" width="60" top="0" left="420"/>
+
+				<label class="bold" text="VELOC." horzTextAlign="center" width="100" top="0" left="465"/>
+
+
+				<label text="Cega:" horzTextAlign="leading" width="40" top="30"  left="257"/>
+
+				<edit field="cega" horzTextAlign="center" width="25"  top="25"  left="290"/>  	
+
+				<label text="%" horzTextAlign="center" width="15" top="30"  left="313"/>
+
+				<label text="Shield:" horzTextAlign="center" width="50" top="30"  left="330"/>
+
+				<edit field="shield" horzTextAlign="center" width="25"  top="25"  left="375"/>  	
+
+				<label text="%" horzTextAlign="center" width="15" top="30"  left="399"/>
+
+				<edit field="reflexo2" horzTextAlign="center" width="30"  top="25"  left="430"/>
+
+				<label text="%" horzTextAlign="center" width="15" top="30"  left="460"/>
+
+				<edit field="velocidade" horzTextAlign="center" width="70"  top="25"  left="480"/>
+
+
+
+				<label text="Foc.:" horzTextAlign="leading" width="40" top="65"  left="257"/>
+
+				<edit field="focada" horzTextAlign="center" width="25"  top="60"  left="290"/>  	
+
+				<label text="%" horzTextAlign="center" width="15" top="65"  left="313"/>
+
+				<label text="Arma:" horzTextAlign="center" width="50" top="65"  left="330"/>
+
+				<edit field="arma" horzTextAlign="center" width="25"  top="60"  left="375"/>  	
+
+				<label text="%" horzTextAlign="center" width="15" top="60"  left="399"/>
+
+			</layout>
+
+		</layout>
+
+	</scrollBox>
+
+</rectangle>

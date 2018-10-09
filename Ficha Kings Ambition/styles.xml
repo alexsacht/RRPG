@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group>
+	<style>
+		
+		edit{
+		fontColor: black;
+		}
+
+		label {
+		fontColor: black;
+		}
+
+		textEditor {
+		fontColor: black;
+		}
+
+		.bold{
+		fontStyle: bold;
+		}
+
+		.bold_italic{
+		fontStyle:bold italic;
+		}
+
+		.rectangle_ficha{
+		color: #A9A9A9; 
+		xradius: 5; 
+		yradius: 5; 
+		cornerType: round;
+		}
+		.rectangle_form{
+
+		}
+
+	</style>
+</group>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rectangle padding="{left=15, top=5}" align="client" color="black">
+
+	<scrollBox align="client">
+
+		<layout width="600" height="150" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="140" />
+
+			<label text="Vocação" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+
+			<textEditor field="text2" left="10" top="50" width="550" height="80" />
+
+		</layout>
+
+		<layout width="600" height="250" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="240" />
+
+			<label text="Talento" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+
+			<label text="LVL1 =" horzTextAlign="center" width="50" top="50" left="10" fontSize="15" />
+
+			<edit field="lvl1" width="500" top="45" left="60" horzTextAlign="center"  />
+
+
+			<label text="LVL3 =" horzTextAlign="center" width="50" top="85" left="10" fontSize="15" />
+
+			<edit field="lvl3" width="500" top="80" left="60" horzTextAlign="center"  />
+
+
+			<label text="LVL5 =" horzTextAlign="center" width="50" top="120" left="10" fontSize="15" />
+
+			<edit field="lvl5" width="500" top="115" left="60" horzTextAlign="center"  />
+
+
+			<label text="LVL7 =" horzTextAlign="center" width="50" top="155" left="10" fontSize="15" />
+
+			<edit field="lvl7" width="500" top="150" left="60" horzTextAlign="center"  />
+
+
+			<label text="LVL10 =" horzTextAlign="center" width="60" top="190" left="1" fontSize="15" />
+
+			<edit field="lvl10" width="500" top="185" left="60" horzTextAlign="center"  />
+
+
+		</layout>
+
+		<layout width="600" height="400" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="390" />
+
+			<label text="Habilidades de combate" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+
+
+			<edit field="combate1" width="500" top="45" left="5" horzTextAlign="leading" />
+
+			<edit field="combate2" width="500" top="80" left="5" horzTextAlign="leading" />
+
+			<edit field="combate3" width="500" top="115" left="5" horzTextAlign="leading" />
+
+			<edit field="combate4" width="500" top="150" left="5" horzTextAlign="leading" />
+
+			<edit field="combate5" width="500" top="185" left="5" horzTextAlign="leading" />
+
+			<edit field="combate6" width="500" top="220" left="5" horzTextAlign="leading" />
+
+			<edit field="combate7" width="500" top="255" left="5" horzTextAlign="leading" />
+
+			<edit field="combate8" width="500" top="290" left="5" horzTextAlign="leading" />
+
+			<edit field="combate9" width="500" top="325" left="5" horzTextAlign="leading" />
+
+			<edit field="combate10" width="500" top="360" left="5" horzTextAlign="leading" />
+
+			<edit field="gastocombate1" width="50" top="45" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate2" width="50" top="80" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate3" width="50" top="115" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate4" width="50" top="150" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate5" width="50" top="185" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate6" width="50" top="220" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate7" width="50" top="255" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate8" width="50" top="290" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate9" width="50" top="325" left="510" horzTextAlign="center" />
+
+			<edit field="gastocombate10" width="50" top="360" left="510" horzTextAlign="center" />
+		</layout>
+	</scrollBox>
+</rectangle>
