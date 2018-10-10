@@ -4,24 +4,27 @@
 	
 	<scrollBox align="client">
 
-		<layout width="600" height="250" align="top">
+		<layout width="600" height="630">
 
-			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="240" />
+			<layout width="600" height="250" align="top">
 
-			<label text="História" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+				<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="240" />
 
-			<textEditor field="text8" left="10" top="50" width="550" height="200" fontColor="black"  />
+				<label text="História" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
 
-		</layout>
+				<textEditor field="text8" left="10" top="50" width="550" height="200" fontColor="black"  />
 
-		<layout width="600" height="390" align="top">
+			</layout>
 
-			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="360" />
+			<layout width="600" height="390" align="top">
 
-			<label text="Anotações" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+				<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="360" />
 
-			<textEditor field="text9" left="10" top="50" width="550" height="300" />
+				<label text="Anotações" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
 
+				<textEditor field="text9" left="10" top="50" width="550" height="300" />
+
+			</layout>
 		</layout>
 	</scrollBox>
 </rectangle>

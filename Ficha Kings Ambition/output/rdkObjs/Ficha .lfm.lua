@@ -1204,12 +1204,18 @@ function newfrmkingsambition()
     obj.layout5 = gui.fromHandle(_obj_newObject("layout"));
     obj.layout5:setParent(obj.scrollBox2);
     obj.layout5:setWidth(600);
-    obj.layout5:setHeight(150);
-    obj.layout5:setAlign("top");
+    obj.layout5:setHeight(810);
     obj.layout5:setName("layout5");
 
+    obj.layout6 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout6:setParent(obj.layout5);
+    obj.layout6:setWidth(600);
+    obj.layout6:setHeight(150);
+    obj.layout6:setAlign("top");
+    obj.layout6:setName("layout6");
+
     obj.rectangle6 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle6:setParent(obj.layout5);
+    obj.rectangle6:setParent(obj.layout6);
     obj.rectangle6:setLeft(2);
     obj.rectangle6:setTop(10);
     obj.rectangle6:setWidth(570);
@@ -1221,7 +1227,7 @@ function newfrmkingsambition()
     obj.rectangle6:setCornerType("round");
 
     obj.label60 = gui.fromHandle(_obj_newObject("label"));
-    obj.label60:setParent(obj.layout5);
+    obj.label60:setParent(obj.layout6);
     obj.label60:setText("Vocação");
     obj.label60:setHorzTextAlign("center");
     obj.label60:setWidth(550);
@@ -1232,7 +1238,7 @@ function newfrmkingsambition()
     obj.label60:setFontColor("black");
 
     obj.textEditor1 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor1:setParent(obj.layout5);
+    obj.textEditor1:setParent(obj.layout6);
     obj.textEditor1:setField("text2");
     obj.textEditor1:setLeft(10);
     obj.textEditor1:setTop(50);
@@ -1241,15 +1247,15 @@ function newfrmkingsambition()
     obj.textEditor1:setName("textEditor1");
     obj.textEditor1:setFontColor("black");
 
-    obj.layout6 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout6:setParent(obj.scrollBox2);
-    obj.layout6:setWidth(600);
-    obj.layout6:setHeight(250);
-    obj.layout6:setAlign("top");
-    obj.layout6:setName("layout6");
+    obj.layout7 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout7:setParent(obj.layout5);
+    obj.layout7:setWidth(600);
+    obj.layout7:setHeight(250);
+    obj.layout7:setAlign("top");
+    obj.layout7:setName("layout7");
 
     obj.rectangle7 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle7:setParent(obj.layout6);
+    obj.rectangle7:setParent(obj.layout7);
     obj.rectangle7:setLeft(2);
     obj.rectangle7:setTop(10);
     obj.rectangle7:setWidth(570);
@@ -1261,7 +1267,7 @@ function newfrmkingsambition()
     obj.rectangle7:setCornerType("round");
 
     obj.label61 = gui.fromHandle(_obj_newObject("label"));
-    obj.label61:setParent(obj.layout6);
+    obj.label61:setParent(obj.layout7);
     obj.label61:setText("Talento");
     obj.label61:setHorzTextAlign("center");
     obj.label61:setWidth(550);
@@ -1272,7 +1278,7 @@ function newfrmkingsambition()
     obj.label61:setFontColor("black");
 
     obj.label62 = gui.fromHandle(_obj_newObject("label"));
-    obj.label62:setParent(obj.layout6);
+    obj.label62:setParent(obj.layout7);
     obj.label62:setText("LVL1 =");
     obj.label62:setHorzTextAlign("center");
     obj.label62:setWidth(50);
@@ -1283,7 +1289,7 @@ function newfrmkingsambition()
     obj.label62:setFontColor("black");
 
     obj.edit45 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit45:setParent(obj.layout6);
+    obj.edit45:setParent(obj.layout7);
     obj.edit45:setField("lvl1");
     obj.edit45:setWidth(500);
     obj.edit45:setTop(45);
@@ -1293,7 +1299,7 @@ function newfrmkingsambition()
     obj.edit45:setFontColor("black");
 
     obj.label63 = gui.fromHandle(_obj_newObject("label"));
-    obj.label63:setParent(obj.layout6);
+    obj.label63:setParent(obj.layout7);
     obj.label63:setText("LVL3 =");
     obj.label63:setHorzTextAlign("center");
     obj.label63:setWidth(50);
@@ -1304,7 +1310,7 @@ function newfrmkingsambition()
     obj.label63:setFontColor("black");
 
     obj.edit46 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit46:setParent(obj.layout6);
+    obj.edit46:setParent(obj.layout7);
     obj.edit46:setField("lvl3");
     obj.edit46:setWidth(500);
     obj.edit46:setTop(80);
@@ -1314,7 +1320,7 @@ function newfrmkingsambition()
     obj.edit46:setFontColor("black");
 
     obj.label64 = gui.fromHandle(_obj_newObject("label"));
-    obj.label64:setParent(obj.layout6);
+    obj.label64:setParent(obj.layout7);
     obj.label64:setText("LVL5 =");
     obj.label64:setHorzTextAlign("center");
     obj.label64:setWidth(50);
@@ -1325,7 +1331,7 @@ function newfrmkingsambition()
     obj.label64:setFontColor("black");
 
     obj.edit47 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit47:setParent(obj.layout6);
+    obj.edit47:setParent(obj.layout7);
     obj.edit47:setField("lvl5");
     obj.edit47:setWidth(500);
     obj.edit47:setTop(115);
@@ -1335,7 +1341,7 @@ function newfrmkingsambition()
     obj.edit47:setFontColor("black");
 
     obj.label65 = gui.fromHandle(_obj_newObject("label"));
-    obj.label65:setParent(obj.layout6);
+    obj.label65:setParent(obj.layout7);
     obj.label65:setText("LVL7 =");
     obj.label65:setHorzTextAlign("center");
     obj.label65:setWidth(50);
@@ -1346,7 +1352,7 @@ function newfrmkingsambition()
     obj.label65:setFontColor("black");
 
     obj.edit48 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit48:setParent(obj.layout6);
+    obj.edit48:setParent(obj.layout7);
     obj.edit48:setField("lvl7");
     obj.edit48:setWidth(500);
     obj.edit48:setTop(150);
@@ -1356,7 +1362,7 @@ function newfrmkingsambition()
     obj.edit48:setFontColor("black");
 
     obj.label66 = gui.fromHandle(_obj_newObject("label"));
-    obj.label66:setParent(obj.layout6);
+    obj.label66:setParent(obj.layout7);
     obj.label66:setText("LVL10 =");
     obj.label66:setHorzTextAlign("center");
     obj.label66:setWidth(60);
@@ -1367,7 +1373,7 @@ function newfrmkingsambition()
     obj.label66:setFontColor("black");
 
     obj.edit49 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit49:setParent(obj.layout6);
+    obj.edit49:setParent(obj.layout7);
     obj.edit49:setField("lvl10");
     obj.edit49:setWidth(500);
     obj.edit49:setTop(185);
@@ -1376,15 +1382,15 @@ function newfrmkingsambition()
     obj.edit49:setName("edit49");
     obj.edit49:setFontColor("black");
 
-    obj.layout7 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout7:setParent(obj.scrollBox2);
-    obj.layout7:setWidth(600);
-    obj.layout7:setHeight(400);
-    obj.layout7:setAlign("top");
-    obj.layout7:setName("layout7");
+    obj.layout8 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout8:setParent(obj.layout5);
+    obj.layout8:setWidth(600);
+    obj.layout8:setHeight(400);
+    obj.layout8:setAlign("top");
+    obj.layout8:setName("layout8");
 
     obj.rectangle8 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle8:setParent(obj.layout7);
+    obj.rectangle8:setParent(obj.layout8);
     obj.rectangle8:setLeft(2);
     obj.rectangle8:setTop(10);
     obj.rectangle8:setWidth(570);
@@ -1396,7 +1402,7 @@ function newfrmkingsambition()
     obj.rectangle8:setCornerType("round");
 
     obj.label67 = gui.fromHandle(_obj_newObject("label"));
-    obj.label67:setParent(obj.layout7);
+    obj.label67:setParent(obj.layout8);
     obj.label67:setText("Habilidades de combate");
     obj.label67:setHorzTextAlign("center");
     obj.label67:setWidth(550);
@@ -1407,7 +1413,7 @@ function newfrmkingsambition()
     obj.label67:setFontColor("black");
 
     obj.edit50 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit50:setParent(obj.layout7);
+    obj.edit50:setParent(obj.layout8);
     obj.edit50:setField("combate1");
     obj.edit50:setWidth(500);
     obj.edit50:setTop(45);
@@ -1417,7 +1423,7 @@ function newfrmkingsambition()
     obj.edit50:setFontColor("black");
 
     obj.edit51 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit51:setParent(obj.layout7);
+    obj.edit51:setParent(obj.layout8);
     obj.edit51:setField("combate2");
     obj.edit51:setWidth(500);
     obj.edit51:setTop(80);
@@ -1427,7 +1433,7 @@ function newfrmkingsambition()
     obj.edit51:setFontColor("black");
 
     obj.edit52 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit52:setParent(obj.layout7);
+    obj.edit52:setParent(obj.layout8);
     obj.edit52:setField("combate3");
     obj.edit52:setWidth(500);
     obj.edit52:setTop(115);
@@ -1437,7 +1443,7 @@ function newfrmkingsambition()
     obj.edit52:setFontColor("black");
 
     obj.edit53 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit53:setParent(obj.layout7);
+    obj.edit53:setParent(obj.layout8);
     obj.edit53:setField("combate4");
     obj.edit53:setWidth(500);
     obj.edit53:setTop(150);
@@ -1447,7 +1453,7 @@ function newfrmkingsambition()
     obj.edit53:setFontColor("black");
 
     obj.edit54 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit54:setParent(obj.layout7);
+    obj.edit54:setParent(obj.layout8);
     obj.edit54:setField("combate5");
     obj.edit54:setWidth(500);
     obj.edit54:setTop(185);
@@ -1457,7 +1463,7 @@ function newfrmkingsambition()
     obj.edit54:setFontColor("black");
 
     obj.edit55 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit55:setParent(obj.layout7);
+    obj.edit55:setParent(obj.layout8);
     obj.edit55:setField("combate6");
     obj.edit55:setWidth(500);
     obj.edit55:setTop(220);
@@ -1467,7 +1473,7 @@ function newfrmkingsambition()
     obj.edit55:setFontColor("black");
 
     obj.edit56 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit56:setParent(obj.layout7);
+    obj.edit56:setParent(obj.layout8);
     obj.edit56:setField("combate7");
     obj.edit56:setWidth(500);
     obj.edit56:setTop(255);
@@ -1477,7 +1483,7 @@ function newfrmkingsambition()
     obj.edit56:setFontColor("black");
 
     obj.edit57 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit57:setParent(obj.layout7);
+    obj.edit57:setParent(obj.layout8);
     obj.edit57:setField("combate8");
     obj.edit57:setWidth(500);
     obj.edit57:setTop(290);
@@ -1487,7 +1493,7 @@ function newfrmkingsambition()
     obj.edit57:setFontColor("black");
 
     obj.edit58 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit58:setParent(obj.layout7);
+    obj.edit58:setParent(obj.layout8);
     obj.edit58:setField("combate9");
     obj.edit58:setWidth(500);
     obj.edit58:setTop(325);
@@ -1497,7 +1503,7 @@ function newfrmkingsambition()
     obj.edit58:setFontColor("black");
 
     obj.edit59 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit59:setParent(obj.layout7);
+    obj.edit59:setParent(obj.layout8);
     obj.edit59:setField("combate10");
     obj.edit59:setWidth(500);
     obj.edit59:setTop(360);
@@ -1507,7 +1513,7 @@ function newfrmkingsambition()
     obj.edit59:setFontColor("black");
 
     obj.edit60 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit60:setParent(obj.layout7);
+    obj.edit60:setParent(obj.layout8);
     obj.edit60:setField("gastocombate1");
     obj.edit60:setWidth(50);
     obj.edit60:setTop(45);
@@ -1517,7 +1523,7 @@ function newfrmkingsambition()
     obj.edit60:setFontColor("black");
 
     obj.edit61 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit61:setParent(obj.layout7);
+    obj.edit61:setParent(obj.layout8);
     obj.edit61:setField("gastocombate2");
     obj.edit61:setWidth(50);
     obj.edit61:setTop(80);
@@ -1527,7 +1533,7 @@ function newfrmkingsambition()
     obj.edit61:setFontColor("black");
 
     obj.edit62 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit62:setParent(obj.layout7);
+    obj.edit62:setParent(obj.layout8);
     obj.edit62:setField("gastocombate3");
     obj.edit62:setWidth(50);
     obj.edit62:setTop(115);
@@ -1537,7 +1543,7 @@ function newfrmkingsambition()
     obj.edit62:setFontColor("black");
 
     obj.edit63 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit63:setParent(obj.layout7);
+    obj.edit63:setParent(obj.layout8);
     obj.edit63:setField("gastocombate4");
     obj.edit63:setWidth(50);
     obj.edit63:setTop(150);
@@ -1547,7 +1553,7 @@ function newfrmkingsambition()
     obj.edit63:setFontColor("black");
 
     obj.edit64 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit64:setParent(obj.layout7);
+    obj.edit64:setParent(obj.layout8);
     obj.edit64:setField("gastocombate5");
     obj.edit64:setWidth(50);
     obj.edit64:setTop(185);
@@ -1557,7 +1563,7 @@ function newfrmkingsambition()
     obj.edit64:setFontColor("black");
 
     obj.edit65 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit65:setParent(obj.layout7);
+    obj.edit65:setParent(obj.layout8);
     obj.edit65:setField("gastocombate6");
     obj.edit65:setWidth(50);
     obj.edit65:setTop(220);
@@ -1567,7 +1573,7 @@ function newfrmkingsambition()
     obj.edit65:setFontColor("black");
 
     obj.edit66 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit66:setParent(obj.layout7);
+    obj.edit66:setParent(obj.layout8);
     obj.edit66:setField("gastocombate7");
     obj.edit66:setWidth(50);
     obj.edit66:setTop(255);
@@ -1577,7 +1583,7 @@ function newfrmkingsambition()
     obj.edit66:setFontColor("black");
 
     obj.edit67 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit67:setParent(obj.layout7);
+    obj.edit67:setParent(obj.layout8);
     obj.edit67:setField("gastocombate8");
     obj.edit67:setWidth(50);
     obj.edit67:setTop(290);
@@ -1587,7 +1593,7 @@ function newfrmkingsambition()
     obj.edit67:setFontColor("black");
 
     obj.edit68 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit68:setParent(obj.layout7);
+    obj.edit68:setParent(obj.layout8);
     obj.edit68:setField("gastocombate9");
     obj.edit68:setWidth(50);
     obj.edit68:setTop(325);
@@ -1597,7 +1603,7 @@ function newfrmkingsambition()
     obj.edit68:setFontColor("black");
 
     obj.edit69 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit69:setParent(obj.layout7);
+    obj.edit69:setParent(obj.layout8);
     obj.edit69:setField("gastocombate10");
     obj.edit69:setWidth(50);
     obj.edit69:setTop(360);
@@ -1624,15 +1630,21 @@ function newfrmkingsambition()
     obj.scrollBox3:setAlign("client");
     obj.scrollBox3:setName("scrollBox3");
 
-    obj.layout8 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout8:setParent(obj.scrollBox3);
-    obj.layout8:setWidth(600);
-    obj.layout8:setHeight(100);
-    obj.layout8:setAlign("top");
-    obj.layout8:setName("layout8");
+    obj.layout9 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout9:setParent(obj.scrollBox3);
+    obj.layout9:setWidth(600);
+    obj.layout9:setHeight(700);
+    obj.layout9:setName("layout9");
+
+    obj.layout10 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout10:setParent(obj.layout9);
+    obj.layout10:setWidth(600);
+    obj.layout10:setHeight(100);
+    obj.layout10:setAlign("top");
+    obj.layout10:setName("layout10");
 
     obj.rectangle10 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle10:setParent(obj.layout8);
+    obj.rectangle10:setParent(obj.layout10);
     obj.rectangle10:setLeft(2);
     obj.rectangle10:setTop(10);
     obj.rectangle10:setWidth(570);
@@ -1644,7 +1656,7 @@ function newfrmkingsambition()
     obj.rectangle10:setCornerType("round");
 
     obj.label68 = gui.fromHandle(_obj_newObject("label"));
-    obj.label68:setParent(obj.layout8);
+    obj.label68:setParent(obj.layout10);
     obj.label68:setText("Mão Direita");
     obj.label68:setHorzTextAlign("center");
     obj.label68:setWidth(550);
@@ -1655,7 +1667,7 @@ function newfrmkingsambition()
     obj.label68:setFontColor("black");
 
     obj.textEditor2 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor2:setParent(obj.layout8);
+    obj.textEditor2:setParent(obj.layout10);
     obj.textEditor2:setField("text3");
     obj.textEditor2:setLeft(10);
     obj.textEditor2:setTop(40);
@@ -1664,15 +1676,15 @@ function newfrmkingsambition()
     obj.textEditor2:setName("textEditor2");
     obj.textEditor2:setFontColor("black");
 
-    obj.layout9 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout9:setParent(obj.scrollBox3);
-    obj.layout9:setWidth(600);
-    obj.layout9:setHeight(100);
-    obj.layout9:setAlign("top");
-    obj.layout9:setName("layout9");
+    obj.layout11 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout11:setParent(obj.layout9);
+    obj.layout11:setWidth(600);
+    obj.layout11:setHeight(100);
+    obj.layout11:setAlign("top");
+    obj.layout11:setName("layout11");
 
     obj.rectangle11 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle11:setParent(obj.layout9);
+    obj.rectangle11:setParent(obj.layout11);
     obj.rectangle11:setLeft(2);
     obj.rectangle11:setTop(10);
     obj.rectangle11:setWidth(570);
@@ -1684,7 +1696,7 @@ function newfrmkingsambition()
     obj.rectangle11:setCornerType("round");
 
     obj.label69 = gui.fromHandle(_obj_newObject("label"));
-    obj.label69:setParent(obj.layout9);
+    obj.label69:setParent(obj.layout11);
     obj.label69:setText("Mão Esquerda");
     obj.label69:setHorzTextAlign("center");
     obj.label69:setWidth(550);
@@ -1695,7 +1707,7 @@ function newfrmkingsambition()
     obj.label69:setFontColor("black");
 
     obj.textEditor3 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor3:setParent(obj.layout9);
+    obj.textEditor3:setParent(obj.layout11);
     obj.textEditor3:setField("text4");
     obj.textEditor3:setLeft(10);
     obj.textEditor3:setTop(40);
@@ -1704,15 +1716,15 @@ function newfrmkingsambition()
     obj.textEditor3:setName("textEditor3");
     obj.textEditor3:setFontColor("black");
 
-    obj.layout10 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout10:setParent(obj.scrollBox3);
-    obj.layout10:setWidth(600);
-    obj.layout10:setHeight(100);
-    obj.layout10:setAlign("top");
-    obj.layout10:setName("layout10");
+    obj.layout12 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout12:setParent(obj.layout9);
+    obj.layout12:setWidth(600);
+    obj.layout12:setHeight(100);
+    obj.layout12:setAlign("top");
+    obj.layout12:setName("layout12");
 
     obj.rectangle12 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle12:setParent(obj.layout10);
+    obj.rectangle12:setParent(obj.layout12);
     obj.rectangle12:setLeft(2);
     obj.rectangle12:setTop(10);
     obj.rectangle12:setWidth(570);
@@ -1724,7 +1736,7 @@ function newfrmkingsambition()
     obj.rectangle12:setCornerType("round");
 
     obj.label70 = gui.fromHandle(_obj_newObject("label"));
-    obj.label70:setParent(obj.layout10);
+    obj.label70:setParent(obj.layout12);
     obj.label70:setText("Corpo");
     obj.label70:setHorzTextAlign("center");
     obj.label70:setWidth(550);
@@ -1735,7 +1747,7 @@ function newfrmkingsambition()
     obj.label70:setFontColor("black");
 
     obj.textEditor4 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor4:setParent(obj.layout10);
+    obj.textEditor4:setParent(obj.layout12);
     obj.textEditor4:setField("text5");
     obj.textEditor4:setLeft(10);
     obj.textEditor4:setTop(40);
@@ -1744,15 +1756,15 @@ function newfrmkingsambition()
     obj.textEditor4:setName("textEditor4");
     obj.textEditor4:setFontColor("black");
 
-    obj.layout11 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout11:setParent(obj.scrollBox3);
-    obj.layout11:setWidth(600);
-    obj.layout11:setHeight(200);
-    obj.layout11:setAlign("top");
-    obj.layout11:setName("layout11");
+    obj.layout13 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout13:setParent(obj.layout9);
+    obj.layout13:setWidth(600);
+    obj.layout13:setHeight(200);
+    obj.layout13:setAlign("top");
+    obj.layout13:setName("layout13");
 
     obj.rectangle13 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle13:setParent(obj.layout11);
+    obj.rectangle13:setParent(obj.layout13);
     obj.rectangle13:setLeft(2);
     obj.rectangle13:setTop(10);
     obj.rectangle13:setWidth(570);
@@ -1764,7 +1776,7 @@ function newfrmkingsambition()
     obj.rectangle13:setCornerType("round");
 
     obj.label71 = gui.fromHandle(_obj_newObject("label"));
-    obj.label71:setParent(obj.layout11);
+    obj.label71:setParent(obj.layout13);
     obj.label71:setText("Mochila");
     obj.label71:setHorzTextAlign("center");
     obj.label71:setWidth(550);
@@ -1775,7 +1787,7 @@ function newfrmkingsambition()
     obj.label71:setFontColor("black");
 
     obj.edit70 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit70:setParent(obj.layout11);
+    obj.edit70:setParent(obj.layout13);
     obj.edit70:setField("slot");
     obj.edit70:setHorzTextAlign("center");
     obj.edit70:setWidth(30);
@@ -1785,7 +1797,7 @@ function newfrmkingsambition()
     obj.edit70:setFontColor("black");
 
     obj.label72 = gui.fromHandle(_obj_newObject("label"));
-    obj.label72:setParent(obj.layout11);
+    obj.label72:setParent(obj.layout13);
     obj.label72:setText("slot");
     obj.label72:setHorzTextAlign("center");
     obj.label72:setWidth(30);
@@ -1795,7 +1807,7 @@ function newfrmkingsambition()
     obj.label72:setFontColor("black");
 
     obj.textEditor5 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor5:setParent(obj.layout11);
+    obj.textEditor5:setParent(obj.layout13);
     obj.textEditor5:setField("text6");
     obj.textEditor5:setLeft(10);
     obj.textEditor5:setTop(75);
@@ -1804,15 +1816,15 @@ function newfrmkingsambition()
     obj.textEditor5:setName("textEditor5");
     obj.textEditor5:setFontColor("black");
 
-    obj.layout12 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout12:setParent(obj.scrollBox3);
-    obj.layout12:setWidth(600);
-    obj.layout12:setHeight(200);
-    obj.layout12:setAlign("top");
-    obj.layout12:setName("layout12");
+    obj.layout14 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout14:setParent(obj.layout9);
+    obj.layout14:setWidth(600);
+    obj.layout14:setHeight(200);
+    obj.layout14:setAlign("top");
+    obj.layout14:setName("layout14");
 
     obj.rectangle14 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle14:setParent(obj.layout12);
+    obj.rectangle14:setParent(obj.layout14);
     obj.rectangle14:setLeft(2);
     obj.rectangle14:setTop(10);
     obj.rectangle14:setWidth(570);
@@ -1824,7 +1836,7 @@ function newfrmkingsambition()
     obj.rectangle14:setCornerType("round");
 
     obj.label73 = gui.fromHandle(_obj_newObject("label"));
-    obj.label73:setParent(obj.layout12);
+    obj.label73:setParent(obj.layout14);
     obj.label73:setText("Porta Poção");
     obj.label73:setHorzTextAlign("center");
     obj.label73:setWidth(550);
@@ -1835,7 +1847,7 @@ function newfrmkingsambition()
     obj.label73:setFontColor("black");
 
     obj.edit71 = gui.fromHandle(_obj_newObject("edit"));
-    obj.edit71:setParent(obj.layout12);
+    obj.edit71:setParent(obj.layout14);
     obj.edit71:setField("slotpot");
     obj.edit71:setHorzTextAlign("center");
     obj.edit71:setWidth(30);
@@ -1845,7 +1857,7 @@ function newfrmkingsambition()
     obj.edit71:setFontColor("black");
 
     obj.label74 = gui.fromHandle(_obj_newObject("label"));
-    obj.label74:setParent(obj.layout12);
+    obj.label74:setParent(obj.layout14);
     obj.label74:setText("slot");
     obj.label74:setHorzTextAlign("center");
     obj.label74:setWidth(30);
@@ -1855,7 +1867,7 @@ function newfrmkingsambition()
     obj.label74:setFontColor("black");
 
     obj.textEditor6 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor6:setParent(obj.layout12);
+    obj.textEditor6:setParent(obj.layout14);
     obj.textEditor6:setField("text7");
     obj.textEditor6:setLeft(10);
     obj.textEditor6:setTop(75);
@@ -1882,15 +1894,21 @@ function newfrmkingsambition()
     obj.scrollBox4:setAlign("client");
     obj.scrollBox4:setName("scrollBox4");
 
-    obj.layout13 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout13:setParent(obj.scrollBox4);
-    obj.layout13:setWidth(600);
-    obj.layout13:setHeight(250);
-    obj.layout13:setAlign("top");
-    obj.layout13:setName("layout13");
+    obj.layout15 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout15:setParent(obj.scrollBox4);
+    obj.layout15:setWidth(600);
+    obj.layout15:setHeight(630);
+    obj.layout15:setName("layout15");
+
+    obj.layout16 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout16:setParent(obj.layout15);
+    obj.layout16:setWidth(600);
+    obj.layout16:setHeight(250);
+    obj.layout16:setAlign("top");
+    obj.layout16:setName("layout16");
 
     obj.rectangle16 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle16:setParent(obj.layout13);
+    obj.rectangle16:setParent(obj.layout16);
     obj.rectangle16:setLeft(2);
     obj.rectangle16:setTop(10);
     obj.rectangle16:setWidth(570);
@@ -1902,7 +1920,7 @@ function newfrmkingsambition()
     obj.rectangle16:setCornerType("round");
 
     obj.label75 = gui.fromHandle(_obj_newObject("label"));
-    obj.label75:setParent(obj.layout13);
+    obj.label75:setParent(obj.layout16);
     obj.label75:setText("História");
     obj.label75:setHorzTextAlign("center");
     obj.label75:setWidth(550);
@@ -1913,7 +1931,7 @@ function newfrmkingsambition()
     obj.label75:setFontColor("black");
 
     obj.textEditor7 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor7:setParent(obj.layout13);
+    obj.textEditor7:setParent(obj.layout16);
     obj.textEditor7:setField("text8");
     obj.textEditor7:setLeft(10);
     obj.textEditor7:setTop(50);
@@ -1922,15 +1940,15 @@ function newfrmkingsambition()
     obj.textEditor7:setFontColor("black");
     obj.textEditor7:setName("textEditor7");
 
-    obj.layout14 = gui.fromHandle(_obj_newObject("layout"));
-    obj.layout14:setParent(obj.scrollBox4);
-    obj.layout14:setWidth(600);
-    obj.layout14:setHeight(390);
-    obj.layout14:setAlign("top");
-    obj.layout14:setName("layout14");
+    obj.layout17 = gui.fromHandle(_obj_newObject("layout"));
+    obj.layout17:setParent(obj.layout15);
+    obj.layout17:setWidth(600);
+    obj.layout17:setHeight(390);
+    obj.layout17:setAlign("top");
+    obj.layout17:setName("layout17");
 
     obj.rectangle17 = gui.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle17:setParent(obj.layout14);
+    obj.rectangle17:setParent(obj.layout17);
     obj.rectangle17:setLeft(2);
     obj.rectangle17:setTop(10);
     obj.rectangle17:setWidth(570);
@@ -1942,7 +1960,7 @@ function newfrmkingsambition()
     obj.rectangle17:setCornerType("round");
 
     obj.label76 = gui.fromHandle(_obj_newObject("label"));
-    obj.label76:setParent(obj.layout14);
+    obj.label76:setParent(obj.layout17);
     obj.label76:setText("Anotações");
     obj.label76:setHorzTextAlign("center");
     obj.label76:setWidth(550);
@@ -1953,7 +1971,7 @@ function newfrmkingsambition()
     obj.label76:setFontColor("black");
 
     obj.textEditor8 = gui.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor8:setParent(obj.layout14);
+    obj.textEditor8:setParent(obj.layout17);
     obj.textEditor8:setField("text9");
     obj.textEditor8:setLeft(10);
     obj.textEditor8:setTop(50);
@@ -2040,6 +2058,7 @@ function newfrmkingsambition()
 
         if self.label14 ~= nil then self.label14:destroy(); self.label14 = nil; end;
         if self.edit64 ~= nil then self.edit64:destroy(); self.edit64 = nil; end;
+        if self.layout15 ~= nil then self.layout15:destroy(); self.layout15 = nil; end;
         if self.edit41 ~= nil then self.edit41:destroy(); self.edit41 = nil; end;
         if self.layout10 ~= nil then self.layout10:destroy(); self.layout10 = nil; end;
         if self.edit36 ~= nil then self.edit36:destroy(); self.edit36 = nil; end;
@@ -2052,6 +2071,7 @@ function newfrmkingsambition()
         if self.edit28 ~= nil then self.edit28:destroy(); self.edit28 = nil; end;
         if self.label57 ~= nil then self.label57:destroy(); self.label57 = nil; end;
         if self.label45 ~= nil then self.label45:destroy(); self.label45 = nil; end;
+        if self.layout17 ~= nil then self.layout17:destroy(); self.layout17 = nil; end;
         if self.edit71 ~= nil then self.edit71:destroy(); self.edit71 = nil; end;
         if self.label71 ~= nil then self.label71:destroy(); self.label71 = nil; end;
         if self.rectangle16 ~= nil then self.rectangle16:destroy(); self.rectangle16 = nil; end;
@@ -2141,6 +2161,7 @@ function newfrmkingsambition()
         if self.edit49 ~= nil then self.edit49:destroy(); self.edit49 = nil; end;
         if self.edit27 ~= nil then self.edit27:destroy(); self.edit27 = nil; end;
         if self.layout14 ~= nil then self.layout14:destroy(); self.layout14 = nil; end;
+        if self.layout16 ~= nil then self.layout16:destroy(); self.layout16 = nil; end;
         if self.edit62 ~= nil then self.edit62:destroy(); self.edit62 = nil; end;
         if self.edit18 ~= nil then self.edit18:destroy(); self.edit18 = nil; end;
         if self.edit25 ~= nil then self.edit25:destroy(); self.edit25 = nil; end;
