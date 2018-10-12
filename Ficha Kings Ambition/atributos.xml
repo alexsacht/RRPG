@@ -326,7 +326,7 @@
 
 				<label text="Arma:" horzTextAlign="center" width="50" top="65"  left="330"/>
 
-				<edit field="arma" horzTextAlign="center" width="25"  top="60"  left="375"/>  	
+				<edit field="armablock" horzTextAlign="center" width="25"  top="60"  left="375"/>  	
 
 				<label text="%" horzTextAlign="center" width="15" top="60"  left="399"/>
 
