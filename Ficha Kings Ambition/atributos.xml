@@ -46,7 +46,7 @@
 						sheet.gold = totalgold + 
 						(tonumber(sheet.gastogold));
 
-						sheet.gastogold = nill;
+						<!--sheet.gastogold = nill;-->
 						end;
 
 

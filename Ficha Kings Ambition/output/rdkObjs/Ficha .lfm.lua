@@ -1165,7 +1165,7 @@ function newfrmkingsambition()
 
     obj.edit44 = gui.fromHandle(_obj_newObject("edit"));
     obj.edit44:setParent(obj.layout4);
-    obj.edit44:setField("arma");
+    obj.edit44:setField("armablock");
     obj.edit44:setHorzTextAlign("center");
     obj.edit44:setWidth(25);
     obj.edit44:setTop(60);
@@ -1990,7 +1990,9 @@ function newfrmkingsambition()
             						sheet.gold = totalgold + 
             						(tonumber(sheet.gastogold));
             
-            						sheet.gastogold = nill;
+            						
+            sheet.gastogold = nill;
+            
             						end;
         end, obj);
 
