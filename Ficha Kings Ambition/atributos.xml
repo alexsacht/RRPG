@@ -35,7 +35,7 @@
 
 				<edit field="gastogold"  width="40" height="30" top="80" left="100" />
 
-				<dataLink fields="{'gold','gastogold'}">
+				<dataLink fields="{'gastogold'}">
 					<event name="onChange">
 
 						if sheet.gastogold ~= nil then
@@ -46,7 +46,6 @@
 						sheet.gold = totalgold + 
 						(tonumber(sheet.gastogold));
 
-						<!--sheet.gastogold = nill;-->
 						end;
 
 

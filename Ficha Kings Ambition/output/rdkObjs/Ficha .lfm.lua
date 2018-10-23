@@ -203,7 +203,7 @@ function newfrmkingsambition()
 
     obj.dataLink1 = gui.fromHandle(_obj_newObject("dataLink"));
     obj.dataLink1:setParent(obj.layout2);
-    obj.dataLink1:setFields({'gold','gastogold'});
+    obj.dataLink1:setFields({'gastogold'});
     obj.dataLink1:setName("dataLink1");
 
     obj.label7 = gui.fromHandle(_obj_newObject("label"));
@@ -1989,9 +1989,6 @@ function newfrmkingsambition()
             
             						sheet.gold = totalgold + 
             						(tonumber(sheet.gastogold));
-            
-            						
-            sheet.gastogold = nill;
             
             						end;
         end, obj);
