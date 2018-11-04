@@ -38,15 +38,15 @@
 				<dataLink fields="{'gold','gastogold'}">
 					<event name="onChange">
 
-						if sheet.gastogold ~= nil then
+						if self.sheet.gastogold ~= nil then
 						local totalgold = 0;
 
-						totalgold = (tonumber(sheet.gold));
+						totalgold = (tonumber(self.sheet.gold));
 
-						sheet.gold = totalgold + 
-						(tonumber(sheet.gastogold));
+						self.sheet.gold = totalgold + 
+						(tonumber(self.sheet.gastogold));
 
-						sheet.gastogold = nill;
+						self.sheet.gastogold = nill;
 						end;
 
 
