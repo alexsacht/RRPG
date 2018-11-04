@@ -46,7 +46,6 @@
 						self.sheet.gold = totalgold + 
 						(tonumber(self.sheet.gastogold));
 
-						self.sheet.gastogold = nill;
 						end;
 
 
