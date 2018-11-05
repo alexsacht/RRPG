@@ -203,7 +203,7 @@ function newfrmkingsambition()
 
     obj.dataLink1 = gui.fromHandle(_obj_newObject("dataLink"));
     obj.dataLink1:setParent(obj.layout2);
-    obj.dataLink1:setFields({'gold','gastogold'});
+    obj.dataLink1:setFields({'gastogold'});
     obj.dataLink1:setName("dataLink1");
 
     obj.label7 = gui.fromHandle(_obj_newObject("label"));
@@ -1165,7 +1165,7 @@ function newfrmkingsambition()
 
     obj.edit44 = gui.fromHandle(_obj_newObject("edit"));
     obj.edit44:setParent(obj.layout4);
-    obj.edit44:setField("arma");
+    obj.edit44:setField("armablock");
     obj.edit44:setHorzTextAlign("center");
     obj.edit44:setWidth(25);
     obj.edit44:setTop(60);
@@ -1987,10 +1987,11 @@ function newfrmkingsambition()
             
             						totalgold = (tonumber(sheet.gold));
             
+            						sheet.gold = 0;
+            
             						sheet.gold = totalgold + 
             						(tonumber(sheet.gastogold));
             
-            						sheet.gastogold = nill;
             						end;
         end, obj);
 
