@@ -601,7 +601,7 @@ function newfrmkingsambition()
 
     obj.label26 = gui.fromHandle(_obj_newObject("label"));
     obj.label26:setParent(obj.layout3);
-    obj.label26:setText("Refrexo:");
+    obj.label26:setText("Reflexo:");
     obj.label26:setHorzTextAlign("trailing");
     obj.label26:setWidth(100);
     obj.label26:setTop(155);

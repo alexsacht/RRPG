@@ -144,7 +144,7 @@
 
 				<edit field="distancia" horzTextAlign="center" width="30" top="150"  left="70" />
 
-				<label text="Refrexo:" horzTextAlign="trailing" width="100" top="155" left="120"/>
+				<label text="Reflexo:" horzTextAlign="trailing" width="100" top="155" left="120"/>
 
 				<edit field="reflexo" horzTextAlign="center" width="30" top="150"  left="225"/>
 
