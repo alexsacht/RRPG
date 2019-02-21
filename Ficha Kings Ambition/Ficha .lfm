@@ -16,9 +16,9 @@
 		</tab>
 		<tab title="EQUIPAMENTOS" tabOrder="2">
 			<import file="equipamentos.xml"/>
-		</tab>			
+		</tab>
 		<tab title="OUTROS" tabOrder="3">
 			<import file="outros.xml"/>
-		</tab>
+		</tab> 
 	</tabControl>
 </form>
