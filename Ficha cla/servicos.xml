@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rectangle padding="{left=15, top=5}" align="client" color="black">
+	
+	<scrollBox align="client">
+
+		<layout width="600" height="1200" align="top">
+
+			<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="250" />
+
+     		<label text="Serviços Disponiveis" left="10" horzTextAlign="center" width="550" top="15" fontSize="25" height="30"/>
+
+     		<label text="Classe" left="10" top="50" fontSize="15" height="30"/>
+
+     		<label text="Tipo" left="90" top="50" fontSize="15" height="30"/>
+
+     		<label text="Valor" left="150" top="50" fontSize="15" height="30"/>
+
+     		<label text="Descrição" left="350" top="50" fontSize="15" height="30"/>
+
+
+     		<edit field="classe" left="15" top="80" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo" left="70" top="80" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor" left="145" top="80" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição" left="220" top="80" fontSize="15" height="30" width="350"/>
+
+
+     		 <edit field="classe2" left="15" top="115" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo2" left="70" top="115" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor2" left="145" top="115" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição2" left="220" top="115" fontSize="15" height="30" width="350"/>
+
+
+     		 <edit field="classe3" left="15" top="150" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo3" left="70" top="150" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor3" left="145" top="150" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição3" left="220" top="150" fontSize="15" height="30" width="350"/>
+
+
+     		<edit field="classe4" left="15" top="185" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo4" left="70" top="185" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor4" left="145" top="185" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição4" left="220" top="185" fontSize="15" height="30" width="350"/>
+
+
+     		<edit field="classe5" left="15" top="220" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo5" left="70" top="220" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor5" left="145" top="220" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição5" left="220" top="220" fontSize="15" height="30" width="350"/>
+
+
+
+     		<rectangle class="rectangle_ficha" left="2" top="270" width="570" height="520" />
+
+     		<label text="Serviços Aceitos" left="10" horzTextAlign="center" width="550" top="285" fontSize="25" height="30"/>
+
+
+     		<label text="Classe" left="10" top="320" fontSize="15" height="30"/>
+
+     		<label text="Tipo" left="90" top="320" fontSize="15" height="30"/>
+
+     		<label text="Valor" left="150" top="320" fontSize="15" height="30"/>
+
+     		<label text="Descrição" left="350" top="320" fontSize="15" height="30"/>
+
+     		
+     		<edit field="classe6" left="15" top="350" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo6" left="70" top="350" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor6" left="145" top="350" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição6" left="220" top="350" fontSize="15" height="30" width="350"/>
+
+     		<label text="Membros:" left="10" top="380" fontSize="15" height="30"/>
+
+     		<edit field="membros6" left="85" top="380" fontSize="15" height="30" width="30"/>
+
+     		<label text="Ganhos:" left="120" top="380" fontSize="15" height="30"/>
+
+     		<edit field="ganhos6" left="180" top="380" fontSize="15" height="30" width="30"/>
+
+     		<label text="Recursos:" left="220" top="380" fontSize="15" height="30"/>
+
+     		<edit field="recursos6" left="290" top="380" fontSize="15" height="30" width="30"/>
+
+
+     		<label text="Classe" left="10" top="410" fontSize="15" height="30"/>
+
+     		<label text="Tipo" left="90" top="410" fontSize="15" height="30"/>
+
+     		<label text="Valor" left="150" top="410" fontSize="15" height="30"/>
+
+     		<label text="Descrição" left="350" top="410" fontSize="15" height="30"/>
+
+     		<edit field="classe7" left="15" top="440" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo7" left="70" top="440" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor7" left="145" top="440" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição7" left="220" top="440" fontSize="15" height="30" width="350"/>
+
+     		<label text="Membros:" left="10" top="470" fontSize="15" height="30"/>
+
+     		<edit field="membros7" left="85" top="470" fontSize="15" height="30" width="30"/>
+
+     		<label text="Ganhos:" left="120" top="470" fontSize="15" height="30"/>
+
+     		<edit field="ganhos7" left="180" top="470" fontSize="15" height="30" width="30"/>
+
+     		<label text="Recursos:" left="220" top="470" fontSize="15" height="30"/>
+
+     		<edit field="recursos7" left="290" top="470" fontSize="15" height="30" width="30"/>
+
+
+     	    <label text="Classe" left="10" top="500" fontSize="15" height="30"/>
+
+     		<label text="Tipo" left="90" top="500" fontSize="15" height="30"/>
+
+     		<label text="Valor" left="150" top="500" fontSize="15" height="30"/>
+
+     		<label text="Descrição" left="350" top="500" fontSize="15" height="30"/>
+
+     		<edit field="classe8" left="15" top="530" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo8" left="70" top="530" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor8" left="145" top="530" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição8" left="220" top="530" fontSize="15" height="30" width="350"/>
+
+     		<label text="Membros:" left="10" top="560" fontSize="15" height="30"/>
+
+     		<edit field="membros8" left="85" top="560" fontSize="15" height="30" width="30"/>
+
+     		<label text="Ganhos:" left="120" top="560" fontSize="15" height="30"/>
+
+     		<edit field="ganhos8" left="180" top="560" fontSize="15" height="30" width="30"/>
+
+     		<label text="Recursos:" left="220" top="560" fontSize="15" height="30"/>
+
+     		<edit field="recursos8" left="290" top="560" fontSize="15" height="30" width="30"/>
+
+
+     		<label text="Classe" left="10" top="590" fontSize="15" height="30"/>
+
+     		<label text="Tipo" left="90" top="590" fontSize="15" height="30"/>
+
+     		<label text="Valor" left="150" top="590" fontSize="15" height="30"/>
+
+     		<label text="Descrição" left="350" top="590" fontSize="15" height="30"/>
+
+     		<edit field="classe9" left="15" top="620" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo9" left="70" top="620" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor9" left="145" top="620" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição9" left="220" top="620" fontSize="15" height="30" width="350"/>
+
+     		<label text="Membros:" left="10" top="650" fontSize="15" height="30"/>
+
+     		<edit field="membros9" left="85" top="650" fontSize="15" height="30" width="30"/>
+
+     		<label text="Ganhos:" left="120" top="650" fontSize="15" height="30"/>
+
+     		<edit field="ganhos9" left="180" top="650" fontSize="15" height="30" width="30"/>
+
+     		<label text="Recursos:" left="220" top="650" fontSize="15" height="30"/>
+
+     		<edit field="recursos9" left="290" top="650" fontSize="15" height="30" width="30"/>
+
+
+     		<label text="Classe" left="10" top="680" fontSize="15" height="30"/>
+
+     		<label text="Tipo" left="90" top="680" fontSize="15" height="30"/>
+
+     		<label text="Valor" left="150" top="680" fontSize="15" height="30"/>
+
+     		<label text="Descrição" left="350" top="680" fontSize="15" height="30"/>
+
+     		<edit field="classe10" left="15" top="710" fontSize="15" height="30" width="30"/>
+
+     		<edit field="tipo10" left="70" top="710" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor10" left="145" top="710" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição10" left="220" top="710" fontSize="15" height="30" width="350"/>
+
+     		<label text="Membros:" left="10" top="740" fontSize="15" height="30"/>
+
+     		<edit field="membros10" left="85" top="740" fontSize="15" height="30" width="30"/>
+
+     		<label text="Ganhos:" left="120" top="740" fontSize="15" height="30"/>
+
+     		<edit field="ganhos10" left="180" top="740" fontSize="15" height="30" width="30"/>
+
+     		<label text="Recursos:" left="220" top="740" fontSize="15" height="30"/>
+
+     		<edit field="recursos10" left="290" top="740" fontSize="15" height="30" width="30"/>
+
+
+     		<rectangle class="rectangle_ficha" left="2" top="800" width="570" height="390" />
+
+     		<label text="Serviços concluidos" left="10" horzTextAlign="center" width="550" top="815" fontSize="25" height="30"/>
+
+
+
+
+     		<label text="Valor" left="10" top="850" fontSize="15" height="30"/>
+
+     		<label text="Descrição" left="250" top="850" fontSize="15" height="30"/>
+
+     		<label text="Status" left="510" top="850" fontSize="15" height="30"/>
+
+
+     		<edit field="valor11" left="10" top="880" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição11" left="70" top="880" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status11" left="500" top="880" fontSize="15" height="30" width="70"/>
+
+
+     		<edit field="valor12" left="10" top="910" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição12" left="70" top="910" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status12" left="500" top="910" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor13" left="10" top="940" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição13" left="70" top="940" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status13" left="500" top="940" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor14" left="10" top="970" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição14" left="70" top="970" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status14" left="500" top="970" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor15" left="10" top="1000" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição15" left="70" top="1000" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status15" left="500" top="1000" fontSize="15" height="30" width="70"/>
+
+
+
+     		<edit field="valor16" left="10" top="1030" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição16" left="70" top="1030" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status16" left="500" top="1030" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor17" left="10" top="1060" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição17" left="70" top="1060" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status17" left="500" top="1060" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor18" left="10" top="1090" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição18" left="70" top="1090" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status18" left="500" top="1090" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor19" left="10" top="1120" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição19" left="70" top="1120" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status19" left="500" top="1120" fontSize="15" height="30" width="70"/>
+
+     		<edit field="valor20" left="10" top="1150" fontSize="15" height="30" width="50"/>
+
+     		<edit field="descrição20" left="70" top="1150" fontSize="15" height="30" width="420"/>
+
+     		<edit field="status20" left="500" top="1150" fontSize="15" height="30" width="70"/>
+
+
+		</layout>
+	</scrollBox>
+</rectangle>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form formType="sheetTemplate" dataType="br.rrpg.kingsambition" 
+	title="King's Ambition Sheet Clan" name="frmkingsambition"
+	align="client" theme="light">
+
+	<import file="styles.xml"/>
+
+	<tabControl  align="client">
+		<tab title="PRINCIPAL" tabOrder="0">
+			<import file="principal.xml"/>
+		</tab>
+		<tab title="LIDERES" tabOrder="0">
+			<import file="lideres.xml"/>
+		</tab>
+		<tab title="SERVIÇOS" tabOrder="0">
+			<import file="servicos.xml"/>
+		</tab>
+	</tabControl>
+</form>

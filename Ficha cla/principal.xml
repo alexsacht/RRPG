@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rectangle padding="{left=15, top=5}" align="client" color="black">
+	
+	<scrollBox align="client">
+
+
+			<layout width="1000" height="650" align="top">
+
+				<rectangle class="rectangle_ficha" left="2" top="10" width="640" height="100" />
+
+				<label text="Guilda Pyton" horzTextAlign="center" width="550" top="15" fontSize="25" height="30" left="40"/>
+
+				<label text="Cofre:" left="10" width="150" top="58" fontSize="15" height="20"/>
+
+				<edit field="cofre"  width="50" height="30" top="55" left="60" />
+
+				<label text="/" left="115" top="58" fontSize="25" height="20"/>
+
+				<edit field="cofre2"  width="50" height="30" top="55" left="130" />
+
+
+
+				<label text="Recursos:" left="190" width="150" top="58" fontSize="15" height="20"/>
+
+				<edit field="recursos"  width="50" height="30" top="55" left="260" />
+
+				<label text="/" left="315" top="58" fontSize="25" height="20"/>
+
+				<edit field="recursos2"  width="50" height="30" top="55" left="330" />
+
+
+				<label text="Renome:" left="390" width="150" top="58" fontSize="15" height="20"/>
+
+				<edit field="renome"  width="50" height="30" top="55" left="460" />
+
+				<label text="/" left="515" top="58" fontSize="25" height="20"/>
+
+				<edit field="renome2"  width="50" height="30" top="55" left="530" />
+
+
+
+				<rectangle class="rectangle_ficha" left="2" top="120" width="640" height="100" />
+
+				<label text="Luas" horzTextAlign="center" width="550" top="120" fontSize="30" height="30" left="40"/>
+				
+				<radioButton text="Nova" groupName="groupmoon" field="lua1" fieldValue="for"
+                    top="170" left="20" fontSize="20" height="30" />       
+
+                <radioButton text="Cheia" groupName="groupmoon" field="lua2" fieldValue="for"
+                top="170" left="150" fontSize="20" height="30"/>     
+
+                <radioButton text="Minguante" groupName="groupmoon" field="lua3" fieldValue="for"
+                top="170" left="280" fontSize="20" height="30" />   
+
+                <radioButton text="Crescente" groupName="groupmoon" field="lua4" fieldValue="for"
+                top="170" left="450" fontSize="20" height="30"/>        
+
+
+                <rectangle class="rectangle_ficha" left="2" top="230" width="640" height="260" />
+
+				<label text="Contatos e Aliados" horzTextAlign="center" left="10" width="640" top="235" fontSize="25" height="30"/>
+
+				<textEditor field="text2" left="10" top="270" width="620" height="200" />         
+
+
+
+			
+
+
+
+			</layout>
+
+	</scrollBox>
+</rectangle>

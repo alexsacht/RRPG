@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rectangle padding="{left=15, top=5}" align="client" color="black">
+	
+	<scrollBox align="client">
+
+		<layout width="600" height="660">
+
+			<layout width="600" height="660" align="top">
+
+				<rectangle class="rectangle_ficha" left="2" top="10" width="570" height="400" />
+
+				<label text="Lideres" horzTextAlign="center" left="15" width="550" top="20" fontSize="25" height="20" />
+
+				<label text="1." left="10" height="30" width="550" top="60" fontSize="25" />
+
+				<edit field="1"  width="100" height="30" top="55" left="30" />
+
+				<label text="Estado:" left="140"  top="60" fontSize="15" />
+
+				<edit field="1estado"  width="80" height="30" top="55" left="190" />
+
+				<label text="EXP:" left="275" top="60" fontSize="15" />
+
+				<edit field="1exp" left="310" width="30" height="30" top="55"  />
+
+				<label text="/" left="345" top="60" fontSize="15" />
+
+				<edit field="1exp2" left="355" width="30" height="30" top="55"  />
+
+				<label text="Classe:" left="400" top="60" fontSize="15" />
+
+				<edit field="1classe" left="450" width="100" height="30" top="55"  />
+
+				<edit field="1descricao" left="30" width="520" height="30" top="90"  />
+
+
+				<label text="2." left="10" height="30" width="550" top="130" fontSize="25" />
+
+				<edit field="2"  width="100" height="30" top="125" left="30" />
+
+				<label text="Estado:" left="140"  top="130" fontSize="15" />
+
+				<edit field="2estado"  width="80" height="30" top="125" left="190" />
+
+				<label text="EXP:" left="275" top="130" fontSize="15" />
+
+				<edit field="2exp" left="310" width="30" height="30" top="125"  />
+
+				<label text="/" left="345" top="130" fontSize="15" />
+
+				<edit field="2exp2" left="355" width="30" height="30" top="125"  />
+
+				<label text="Classe:" left="400" top="130" fontSize="15" />
+
+				<edit field="2classe" left="450" width="100" height="30" top="125"  />
+
+				<edit field="2descricao" left="30" width="520" height="30" top="160"  />
+
+
+				<label text="3." left="10" height="30" width="550" top="200" fontSize="25" />
+
+				<edit field="3"  width="100" height="30" top="195" left="30" />
+
+				<label text="Estado:" left="140"  top="200" fontSize="15" />
+
+				<edit field="3estado"  width="80" height="30" top="195" left="190" />
+
+				<label text="EXP:" left="275" top="200" fontSize="15" />
+
+				<edit field="3exp" left="310" width="30" height="30" top="195"  />
+
+				<label text="/" left="345" top="200" fontSize="15" />
+
+				<edit field="3exp2" left="355" width="30" height="30" top="195"  />
+
+				<label text="Classe:" left="400" top="200" fontSize="15" />
+
+				<edit field="3classe" left="450" width="100" height="30" top="195"  />
+
+				<edit field="3descricao" left="30" width="520" height="30" top="230"  />
+
+
+				<label text="4." left="10" height="30" width="550" top="270" fontSize="25" />
+
+				<edit field="4"  width="100" height="30" top="265" left="30" />
+
+				<label text="Estado:" left="140"  top="270" fontSize="15" />
+
+				<edit field="4estado"  width="80" height="30" top="265" left="190" />
+
+				<label text="EXP:" left="275" top="270" fontSize="15" />
+
+				<edit field="4exp" left="310" width="30" height="30" top="265"  />
+
+				<label text="/" left="345" top="270" fontSize="15" />
+
+				<edit field="4exp2" left="355" width="30" height="30" top="265"  />
+
+				<label text="Classe:" left="400" top="270" fontSize="15" />
+
+				<edit field="4classe" left="450" width="100" height="30" top="265"  />
+
+				<edit field="4descricao" left="30" width="520" height="30" top="300"  />
+
+
+				<label text="5." left="10" height="30" width="550" top="340" fontSize="25" />
+
+				<edit field="5"  width="100" height="30" top="335" left="30" />
+
+				<label text="Estado:" left="140"  top="340" fontSize="15" />
+
+				<edit field="5estado"  width="80" height="30" top="335" left="190" />
+
+				<label text="EXP:" left="275" top="340" fontSize="15" />
+
+				<edit field="5exp" left="310" width="30" height="30" top="335"  />
+
+				<label text="/" left="345" top="340" fontSize="15" />
+
+				<edit field="5exp2" left="355" width="30" height="30" top="335"  />
+
+				<label text="Classe:" left="400" top="340" fontSize="15" />
+
+				<edit field="5classe" left="450" width="100" height="30" top="335"  />
+
+				<edit field="5descricao" left="30" width="520" height="30" top="370"  />
+
+
+				<rectangle class="rectangle_ficha" left="2" top="420" width="570" height="240" />
+
+				<label text="Membros" horzTextAlign="center" left="15" width="550" top="440" fontSize="25" height="20" />
+
+				<label text="Qtd Membros total:" width="150" left="10" top="480" fontSize="15" />
+
+				<edit field="membros" left="200" width="30" height="30" top="475"  />
+
+				<label text="/" left="235" top="480" fontSize="15" />
+
+				<edit field="membros2" left="250" width="30" height="30" top="475"  />
+
+				<label text="Qtd Membros disponivel:" width="200" left="10" top="515" fontSize="15" />
+
+				<edit field="membros_disp" left="200" width="30" height="30" top="510"  />
+
+				<label text="Membros em serviço:" width="200" left="10" top="550" fontSize="15" />
+
+				<edit field="membros_serv" left="200" width="30" height="30" top="545"  />
+
+				<label text="Membros feridos:" width="200" left="10" top="585" fontSize="15" />
+
+				<edit field="membros_fer" left="200" width="30" height="30" top="580"  />
+
+				<label text="Membros exautos:" width="200" left="10" top="620" fontSize="15" />
+
+				<edit field="membros_ex" left="200" width="30" height="30" top="615"  />
+
+			</layout>
+
+		</layout>
+	</scrollBox>
+</rectangle>
